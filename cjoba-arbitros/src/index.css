@@ -169,3 +169,43 @@ input, textarea { font-family: inherit; }
   .card, .opt, .case { transition: border-color .15s ease, background .15s ease; }
 }
 *:focus-visible { outline: 3px solid var(--signal); outline-offset: 2px; border-radius: 6px; }
+
+/* ---------- Trivia: reloj de 24s ---------- */
+.shotclock { margin: 4px 0 14px; }
+.shotclock-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+.shotclock-lab { font-family: 'Space Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
+.shotclock-sec { font-family: 'Space Mono', monospace; font-weight: 700; font-size: 22px; }
+.shotclock-bar { height: 10px; background: var(--line); border-radius: 999px; overflow: hidden; }
+.shotclock-fill { height: 100%; border-radius: 999px; transition: width 1s linear, background-color .3s ease; }
+
+/* ---------- Trivia: escalafón / licencia ---------- */
+.rank-card { background: var(--ink); color: var(--paper); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 14px; }
+.rank-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.rank-lab { font-family: 'Space Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: .12em; color: #B9AE9A; margin-bottom: 3px; }
+.rank-title { font-family: Archivo, sans-serif; font-weight: 800; font-size: 18px; line-height: 1.05; color: #FF7A53; letter-spacing: -.01em; }
+.rank-streak { text-align: right; }
+.rank-streak .n { font-family: 'Space Mono', monospace; font-weight: 700; font-size: 32px; line-height: 1; color: var(--paper); }
+.rank-progress { height: 8px; background: rgba(255,255,255,.14); border-radius: 999px; overflow: hidden; margin-top: 12px; }
+.rank-progress-fill { height: 100%; background: #FF7A53; border-radius: 999px; transition: width .6s ease; }
+.rank-meta { display: flex; justify-content: space-between; font-family: 'Space Mono', monospace; font-size: 10px; color: #B9AE9A; margin-top: 6px; letter-spacing: .04em; }
+.rank-reset { background: none; border: none; color: #8B8170; font-size: 12px; padding: 0; margin-top: 4px; }
+
+.levelup {
+  background: var(--ok-dim); border: 1px solid var(--ok); color: var(--ok);
+  border-radius: 10px; padding: 11px 14px; margin-bottom: 14px; text-align: center;
+  font-family: Archivo, sans-serif; font-weight: 700; font-size: 14px;
+}
+
+/* ---------- Trivia: ranking ---------- */
+.lb { margin-top: 20px; }
+.lb-row { display: flex; align-items: center; gap: 12px; padding: 9px 13px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); margin-bottom: 6px; }
+.lb-row .pos { font-family: 'Space Mono', monospace; color: var(--muted); font-size: 13px; min-width: 22px; }
+.lb-row .ini { font-family: Archivo, sans-serif; font-weight: 700; letter-spacing: .08em; flex: 1; }
+.lb-row .sc { font-family: 'Space Mono', monospace; font-weight: 700; color: var(--signal); }
+
+/* ---------- Modal récord ---------- */
+.modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex; align-items: center; justify-content: center; padding: 24px; z-index: 50; }
+.modal { background: var(--surface); border-radius: 14px; padding: 22px; width: 100%; max-width: 320px; text-align: center; }
+.modal h3 { font-family: Archivo, sans-serif; font-weight: 800; color: var(--signal); margin: 0 0 6px; }
+.modal p { margin: 0 0 4px; font-size: 14px; color: var(--ink-2); }
+.modal input { width: 100%; text-align: center; text-transform: uppercase; font-family: Archivo, sans-serif; font-weight: 700; font-size: 22px; letter-spacing: .25em; padding: 12px; border: 1px solid var(--line-strong); border-radius: 10px; margin: 14px 0; }
