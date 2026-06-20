@@ -62,9 +62,9 @@ export default function Interactiva() {
   return (
     <div className="wrap">
       <div className="page-head">
-        <p className="eyebrow">Área interactiva</p>
+        <p className="eyebrow">Comunidad arbitral</p>
         <h1>Jugadas dudosas</h1>
-        <p>Publica una jugada y debátela con otros árbitros. Las resueltas quedan como referencia.</p>
+        <p>¿Una jugada que te dejó dudando? Súbela y deja que otros árbitros la analicen. Las resueltas quedan como referencia.</p>
       </div>
 
       <div className="card" style={{ display: 'block', padding: 16 }}>

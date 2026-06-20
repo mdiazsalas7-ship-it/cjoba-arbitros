@@ -1,5 +1,6 @@
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
 import Estudios from './pages/Estudios.jsx'
+import Senales from './pages/Senales.jsx'
 import Juegos from './pages/Juegos.jsx'
 import Interactiva from './pages/Interactiva.jsx'
 
@@ -17,10 +18,11 @@ function TopBar() {
 
 function BottomNav() {
   return (
-    <nav className="nav" aria-label="Secciones">
+    <nav className="nav cols-4" aria-label="Secciones">
       <NavLink to="/estudios"><span className="ico">📖</span>Estudios</NavLink>
+      <NavLink to="/senales"><span className="ico">✋</span>Señales</NavLink>
       <NavLink to="/juegos"><span className="ico">🎯</span>Juegos</NavLink>
-      <NavLink to="/interactiva"><span className="ico">💬</span>Interactiva</NavLink>
+      <NavLink to="/comunidad"><span className="ico">💬</span>Comunidad</NavLink>
     </nav>
   )
 }
@@ -33,8 +35,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/estudios" replace />} />
           <Route path="/estudios" element={<Estudios />} />
+          <Route path="/senales" element={<Senales />} />
           <Route path="/juegos" element={<Juegos />} />
-          <Route path="/interactiva" element={<Interactiva />} />
+          <Route path="/comunidad" element={<Interactiva />} />
           <Route path="*" element={<Navigate to="/estudios" replace />} />
         </Routes>
       </main>

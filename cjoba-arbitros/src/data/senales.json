@@ -1,0 +1,314 @@
+[
+ {
+  "id": "sig_stop_clock",
+  "nombre": "Detener el reloj",
+  "categoria": "reloj",
+  "descripcion": "Palma abierta. Brazo derecho arriba."
+ },
+ {
+  "id": "sig_stop_clock_foul",
+  "nombre": "Detener reloj por falta",
+  "categoria": "reloj",
+  "descripcion": "Puño cerrado. Brazo derecho arriba."
+ },
+ {
+  "id": "sig_start_clock",
+  "nombre": "Iniciar el reloj",
+  "categoria": "reloj",
+  "descripcion": "Cortar con la mano hacia abajo."
+ },
+ {
+  "id": "sig_reset_24",
+  "nombre": "Nueva cuenta (24 o 14 seg)",
+  "categoria": "reloj",
+  "descripcion": "Rotar la mano/dedo índice en el aire."
+ },
+ {
+  "id": "sig_1_point",
+  "nombre": "1 Punto",
+  "categoria": "tanteo",
+  "descripcion": "Un dedo, mover la muñeca hacia abajo (tiro libre)."
+ },
+ {
+  "id": "sig_2_points",
+  "nombre": "2 Puntos",
+  "categoria": "tanteo",
+  "descripcion": "Dos dedos, mover la muñeca hacia abajo."
+ },
+ {
+  "id": "sig_3_attempt",
+  "nombre": "Intento de 3 puntos",
+  "categoria": "tanteo",
+  "descripcion": "Tres dedos extendidos. Un brazo."
+ },
+ {
+  "id": "sig_3_valid",
+  "nombre": "Canasta de 3 válida",
+  "categoria": "tanteo",
+  "descripcion": "Tres dedos extendidos. Ambos brazos arriba."
+ },
+ {
+  "id": "sig_cancel_score",
+  "nombre": "Anular canasta / Juego anulado",
+  "categoria": "tanteo",
+  "descripcion": "Mover los brazos en tijera sobre el pecho una vez."
+ },
+ {
+  "id": "sig_sub",
+  "nombre": "Sustitución",
+  "categoria": "administrativa",
+  "descripcion": "Cruzar los antebrazos (X)."
+ },
+ {
+  "id": "sig_timeout",
+  "nombre": "Tiempo muerto",
+  "categoria": "administrativa",
+  "descripcion": "Formar una T con la palma y el índice."
+ },
+ {
+  "id": "sig_visible_count",
+  "nombre": "Cuenta visible",
+  "categoria": "administrativa",
+  "descripcion": "Mover el brazo contando segundos (5 u 8)."
+ },
+ {
+  "id": "sig_beckoning",
+  "nombre": "Autorización para entrar (Beckoning-in)",
+  "categoria": "administrativa",
+  "descripcion": "Mano abierta, mover hacia el cuerpo."
+ },
+ {
+  "id": "sig_communication",
+  "nombre": "Comunicación entre árbitros",
+  "categoria": "administrativa",
+  "descripcion": "Pulgar hacia arriba."
+ },
+ {
+  "id": "sig_num_00",
+  "nombre": "No. 00 y 0",
+  "categoria": "numeros",
+  "descripcion": "Ambas manos muestran 0 (00) / Mano derecha muestra 0 (0)."
+ },
+ {
+  "id": "sig_num_1_5",
+  "nombre": "Números 1 - 5",
+  "categoria": "numeros",
+  "descripcion": "Mano derecha muestra dedos del 1 al 5."
+ },
+ {
+  "id": "sig_num_6_10",
+  "nombre": "Números 6 - 10",
+  "categoria": "numeros",
+  "descripcion": "Mano derecha muestra 5, mano izquierda muestra 1 a 5."
+ },
+ {
+  "id": "sig_num_11_15",
+  "nombre": "Números 11 - 15",
+  "categoria": "numeros",
+  "descripcion": "Mano derecha puño cerrado, mano izquierda muestra 1 a 5."
+ },
+ {
+  "id": "sig_num_16",
+  "nombre": "Número 16",
+  "categoria": "numeros",
+  "descripcion": "Primero reverso de la mano (1) para la decena, luego palmas abiertas (6) para unidad."
+ },
+ {
+  "id": "sig_num_24",
+  "nombre": "Número 24",
+  "categoria": "numeros",
+  "descripcion": "Primero reverso de la mano (2) para la decena, luego palmas abiertas (4) para unidad."
+ },
+ {
+  "id": "sig_num_40",
+  "nombre": "Número 40",
+  "categoria": "numeros",
+  "descripcion": "Primero reverso de la mano (4) para la decena, luego palma cerrada (0)."
+ },
+ {
+  "id": "sig_num_99",
+  "nombre": "Número 99",
+  "categoria": "numeros",
+  "descripcion": "Reverso de la mano (9) para decena, palmas abiertas (9) para unidad."
+ },
+ {
+  "id": "sig_travel",
+  "nombre": "Pasos (Avance ilegal)",
+  "categoria": "violacion",
+  "descripcion": "Rotar los puños uno alrededor del otro."
+ },
+ {
+  "id": "sig_dribble",
+  "nombre": "Regate ilegal (Dobles)",
+  "categoria": "violacion",
+  "descripcion": "Mover las manos arriba y abajo (palmeo)."
+ },
+ {
+  "id": "sig_3_sec",
+  "nombre": "3 Segundos",
+  "categoria": "violacion",
+  "descripcion": "Brazo extendido mostrando 3 dedos."
+ },
+ {
+  "id": "sig_carry",
+  "nombre": "Acompañamiento de balón",
+  "categoria": "violacion",
+  "descripcion": "Media rotación hacia adelante con la palma."
+ },
+ {
+  "id": "sig_5_sec",
+  "nombre": "5 Segundos",
+  "categoria": "violacion",
+  "descripcion": "Mostrar 5 dedos."
+ },
+ {
+  "id": "sig_8_sec",
+  "nombre": "8 Segundos",
+  "categoria": "violacion",
+  "descripcion": "Mostrar 8 dedos."
+ },
+ {
+  "id": "sig_24_sec",
+  "nombre": "24 Segundos",
+  "categoria": "violacion",
+  "descripcion": "Tocar el hombro con los dedos."
+ },
+ {
+  "id": "sig_backcourt",
+  "nombre": "Campo atrás",
+  "categoria": "violacion",
+  "descripcion": "Mover el brazo con el índice extendido de lado a lado."
+ },
+ {
+  "id": "sig_foot",
+  "nombre": "Pie intencionado",
+  "categoria": "violacion",
+  "descripcion": "Señalar el pie con el dedo."
+ },
+ {
+  "id": "sig_interference_goaltending",
+  "nombre": "Interposición / Interferencia",
+  "categoria": "violacion",
+  "descripcion": "Girar el dedo índice extendido trazando un círculo sobre la otra mano."
+ },
+ {
+  "id": "sig_holding",
+  "nombre": "Agarrar (Holding)",
+  "categoria": "falta",
+  "descripcion": "Agarrar la muñeca hacia abajo."
+ },
+ {
+  "id": "sig_blocking",
+  "nombre": "Bloqueo / Pantalla ilegal",
+  "categoria": "falta",
+  "descripcion": "Ambas manos en las caderas."
+ },
+ {
+  "id": "sig_pushing",
+  "nombre": "Empujar (Pushing)",
+  "categoria": "falta",
+  "descripcion": "Imitar un empujón con las palmas."
+ },
+ {
+  "id": "sig_charging",
+  "nombre": "Carga con balón (Falta en ataque)",
+  "categoria": "falta",
+  "descripcion": "Golpear la palma abierta con el puño."
+ },
+ {
+  "id": "sig_illegal_hands",
+  "nombre": "Uso ilegal de manos",
+  "categoria": "falta",
+  "descripcion": "Golpear la muñeca."
+ },
+ {
+  "id": "sig_technical",
+  "nombre": "Falta Técnica",
+  "categoria": "falta",
+  "descripcion": "Formar una 'T' con las palmas mostradas."
+ },
+ {
+  "id": "sig_unsportsmanlike",
+  "nombre": "Falta Antideportiva",
+  "categoria": "falta",
+  "descripcion": "Agarrar la muñeca en alto."
+ },
+ {
+  "id": "sig_disqualifying",
+  "nombre": "Falta Descalificante",
+  "categoria": "falta",
+  "descripcion": "Dos puños cerrados arriba."
+ },
+ {
+  "id": "sig_double",
+  "nombre": "Doble Falta",
+  "categoria": "falta",
+  "descripcion": "Agitar los puños cerrados sobre la cabeza."
+ },
+ {
+  "id": "sig_technical",
+  "nombre": "Falta Técnica",
+  "categoria": "falta",
+  "descripcion": "Formar una 'T' con las palmas mostradas."
+ },
+ {
+  "id": "sig_unsportsmanlike",
+  "nombre": "Falta Antideportiva",
+  "categoria": "falta",
+  "descripcion": "Agarrar la muñeca en alto."
+ },
+ {
+  "id": "sig_disqualifying",
+  "nombre": "Falta Descalificante",
+  "categoria": "falta",
+  "descripcion": "Dos puños cerrados arriba."
+ },
+ {
+  "id": "sig_flopping",
+  "nombre": "Simulación (Flopping)",
+  "categoria": "falta",
+  "descripcion": "Levantar el antebrazo dos veces (señal de 'levántate')."
+ },
+ {
+  "id": "sig_irs",
+  "nombre": "Revisión IRS",
+  "categoria": "administrativa",
+  "descripcion": "Rotar el dedo índice con el brazo extendido horizontalmente."
+ },
+ {
+  "id": "sig_ft_1_in",
+  "nombre": "1 Tiro Libre (Dentro zona)",
+  "categoria": "tanteo",
+  "descripcion": "Un dedo horizontal."
+ },
+ {
+  "id": "sig_ft_2_in",
+  "nombre": "2 Tiros Libres (Dentro zona)",
+  "categoria": "tanteo",
+  "descripcion": "Dos dedos horizontales."
+ },
+ {
+  "id": "sig_ft_3_in",
+  "nombre": "3 Tiros Libres (Dentro zona)",
+  "categoria": "tanteo",
+  "descripcion": "Tres dedos horizontales."
+ },
+ {
+  "id": "sig_ft_1_out",
+  "nombre": "1 Tiro Libre (Fuera zona)",
+  "categoria": "tanteo",
+  "descripcion": "Dedo índice hacia arriba."
+ },
+ {
+  "id": "sig_ft_2_out",
+  "nombre": "2 Tiros Libres (Fuera zona)",
+  "categoria": "tanteo",
+  "descripcion": "Dedos juntos hacia arriba."
+ },
+ {
+  "id": "sig_ft_3_out",
+  "nombre": "3 Tiros Libres (Fuera zona)",
+  "categoria": "tanteo",
+  "descripcion": "Tres dedos extendidos hacia arriba."
+ }
+]
