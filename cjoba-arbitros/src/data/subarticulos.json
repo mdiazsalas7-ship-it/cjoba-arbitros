@@ -1,0 +1,1562 @@
+[
+ {
+  "id": "S-1.1",
+  "regla_id": "R-1",
+  "num": "1.1",
+  "resumen_propio": "Dos equipos de cinco jugadores; el objetivo es anotar en la canasta rival e impedir que el rival anote. Gana quien más puntúe.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-1.2",
+  "regla_id": "R-1",
+  "num": "1.2",
+  "resumen_propio": "Todos los participantes deben conocer y respetar las reglas y conducirse con espíritu deportivo.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-1.3",
+  "regla_id": "R-1",
+  "num": "1.3",
+  "resumen_propio": "La canasta que un equipo ataca es la del rival; la que defiende es la propia.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-1.4",
+  "regla_id": "R-1",
+  "num": "1.4",
+  "resumen_propio": "Gana el equipo con más puntos al término del tiempo de juego.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-2.1",
+  "regla_id": "R-2",
+  "num": "2.1",
+  "resumen_propio": "Cancha plana y dura, sin obstáculos, de 28 m de largo por 15 m de ancho (medida en el borde interior de las líneas).",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-2.2",
+  "regla_id": "R-2",
+  "num": "2.2",
+  "resumen_propio": "Alrededor de la cancha debe haber una zona libre de obstáculos de al menos 2 m de ancho.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-2.3",
+  "regla_id": "R-2",
+  "num": "2.3",
+  "resumen_propio": "La pista de defensa abarca la propia canasta, su tablero y la zona hasta la línea central.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-2.4",
+  "regla_id": "R-2",
+  "num": "2.4",
+  "resumen_propio": "La pista de ataque abarca la canasta rival, su tablero y la zona hasta el borde interior de la línea central.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-2.5",
+  "regla_id": "R-2",
+  "num": "2.5",
+  "resumen_propio": "Todas las líneas miden 5 cm de ancho, en blanco u otro color visible: límites, central, círculos, zona, tiros libres y tres puntos.",
+  "sub_detalle (X.Y.Z)": "2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5, 2.5.6, 2.5.7",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-2.6",
+  "regla_id": "R-2",
+  "num": "2.6",
+  "resumen_propio": "La mesa de anotadores y las sillas de sustitución se sitúan sobre una plataforma junto a la cancha.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-4.1",
+  "regla_id": "R-4",
+  "num": "4.1",
+  "resumen_propio": "Un miembro tiene derecho a jugar si está autorizado conforme a la reglamentación de la competición (incluidos límites de edad).",
+  "sub_detalle (X.Y.Z)": "4.1.1, 4.1.2, 4.1.3, 4.1.4",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-4.2",
+  "regla_id": "R-4",
+  "num": "4.2",
+  "resumen_propio": "Cada equipo: hasta 12 jugadores con derecho a jugar (incluido el capitán), un entrenador y hasta 8 acompañantes.",
+  "sub_detalle (X.Y.Z)": "4.2.1, 4.2.2, 4.2.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-4.3",
+  "regla_id": "R-4",
+  "num": "4.3",
+  "resumen_propio": "Camisetas del mismo color dominante delante y detrás que el pantalón; reglas sobre mangas, números y colores.",
+  "sub_detalle (X.Y.Z)": "4.3.1, 4.3.2, 4.3.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-4.4",
+  "regla_id": "R-4",
+  "num": "4.4",
+  "resumen_propio": "El equipo de los jugadores debe ser apropiado; se prohíbe lo que dé ventaja indebida o pueda causar lesiones.",
+  "sub_detalle (X.Y.Z)": "4.4.1, 4.4.2, 4.4.3, 4.4.4, 4.4.5",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-5.1",
+  "regla_id": "R-5",
+  "num": "5.1",
+  "resumen_propio": "Ante la lesión de un jugador, los árbitros pueden detener el juego.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-5.2",
+  "regla_id": "R-5",
+  "num": "5.2",
+  "resumen_propio": "Si el balón está vivo, el árbitro no pita hasta que el equipo con el control tire, pierda el balón o este quede muerto, salvo desventaja.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-5.3",
+  "regla_id": "R-5",
+  "num": "5.3",
+  "resumen_propio": "Si el lesionado no puede seguir de inmediato (unos 15 s) o recibe asistencia, debe ser sustituido.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-5.4",
+  "regla_id": "R-5",
+  "num": "5.4",
+  "resumen_propio": "El banquillo solo puede entrar a atender al lesionado con permiso de un árbitro, antes de sustituirlo.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-5.5",
+  "regla_id": "R-5",
+  "num": "5.5",
+  "resumen_propio": "Con balón muerto, el médico puede entrar sin permiso si el jugador requiere atención inmediata.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-5.6",
+  "regla_id": "R-5",
+  "num": "5.6",
+  "resumen_propio": "Un jugador que sangra o tiene herida abierta debe ser sustituido; vuelve solo si está cubierta y sin sangrado.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-5.7",
+  "regla_id": "R-5",
+  "num": "5.7",
+  "resumen_propio": "Si el lesionado o sangrante se recupera durante un tiempo muerto antes de la señal de sustitución, puede seguir jugando.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-5.8",
+  "regla_id": "R-5",
+  "num": "5.8",
+  "resumen_propio": "Si un titular o un jugador atendido entre tiros libres se lesiona y es sustituido, el rival puede sustituir igual número.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-6.1",
+  "regla_id": "R-6",
+  "num": "6.1",
+  "resumen_propio": "El capitán representa al equipo en cancha y puede dirigirse cortésmente al árbitro solo con balón muerto y reloj parado.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-6.2",
+  "regla_id": "R-6",
+  "num": "6.2",
+  "resumen_propio": "Si el equipo reclama el resultado, el capitán lo comunica al árbitro principal en los 15 min siguientes y firma el acta.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.1",
+  "regla_id": "R-7",
+  "num": "7.1",
+  "resumen_propio": "40 min antes, el entrenador entrega al anotador la lista de jugadores con números y el capitán.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.2",
+  "regla_id": "R-7",
+  "num": "7.2",
+  "resumen_propio": "10 min antes, el entrenador confirma y firma la lista y los nombres de entrenador y ayudante.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.3",
+  "regla_id": "R-7",
+  "num": "7.3",
+  "resumen_propio": "Solo el cuerpo técnico y los acompañantes ocupan la zona de banquillo; los demás permanecen sentados durante el juego.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.4",
+  "regla_id": "R-7",
+  "num": "7.4",
+  "resumen_propio": "El entrenador o ayudante puede ir a la mesa por información estadística solo con balón muerto y reloj parado.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.5",
+  "regla_id": "R-7",
+  "num": "7.5",
+  "resumen_propio": "El entrenador puede dirigirse cortésmente al árbitro solo con balón muerto y reloj parado.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.6",
+  "regla_id": "R-7",
+  "num": "7.6",
+  "resumen_propio": "Solo uno (entrenador o primer ayudante) puede estar de pie; puede hablar a sus jugadores desde su zona.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.7",
+  "regla_id": "R-7",
+  "num": "7.7",
+  "resumen_propio": "El nombre del primer ayudante se anota antes del partido; asume las funciones del entrenador si este no puede seguir.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.8",
+  "regla_id": "R-7",
+  "num": "7.8",
+  "resumen_propio": "Si el capitán deja la cancha, el entrenador indica al árbitro qué jugador actuará como capitán.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.9",
+  "regla_id": "R-7",
+  "num": "7.9",
+  "resumen_propio": "El capitán actúa como entrenador-jugador si no hay entrenador ni ayudante inscrito disponible.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-7.10",
+  "regla_id": "R-7",
+  "num": "7.10",
+  "resumen_propio": "El entrenador designa al tirador de los tiros libres cuando las reglas no lo determinan.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.1",
+  "regla_id": "R-8",
+  "num": "8.1",
+  "resumen_propio": "El partido consta de cuatro cuartos de 10 minutos.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.2",
+  "regla_id": "R-8",
+  "num": "8.2",
+  "resumen_propio": "Hay un intervalo de 20 minutos antes de la hora prevista de inicio.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.3",
+  "regla_id": "R-8",
+  "num": "8.3",
+  "resumen_propio": "Intervalos de 2 minutos entre el 1.º-2.º y 3.º-4.º cuarto y antes de cada prórroga.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.4",
+  "regla_id": "R-8",
+  "num": "8.4",
+  "resumen_propio": "El descanso de medio tiempo dura 15 minutos.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.5",
+  "regla_id": "R-8",
+  "num": "8.5",
+  "resumen_propio": "Un intervalo de juego empieza 20 min antes del inicio y al sonar la señal de fin de cuarto o prórroga.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.6",
+  "regla_id": "R-8",
+  "num": "8.6",
+  "resumen_propio": "El intervalo termina al iniciarse el cuarto: el primero con el salto, los demás con el balón a disposición del sacador.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.7",
+  "regla_id": "R-8",
+  "num": "8.7",
+  "resumen_propio": "Si hay empate al final del 4.º cuarto, se juegan prórrogas de 5 minutos hasta deshacerlo.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.8",
+  "regla_id": "R-8",
+  "num": "8.8",
+  "resumen_propio": "Si una falta ocurre cerca del fin de un cuarto, el árbitro fija el tiempo restante; mínimo 0,1 s en el reloj.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-8.9",
+  "regla_id": "R-8",
+  "num": "8.9",
+  "resumen_propio": "Las faltas técnicas, antideportivas o descalificantes en un intervalo se sancionan antes del siguiente cuarto.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-9.1",
+  "regla_id": "R-9",
+  "num": "9.1",
+  "resumen_propio": "El primer cuarto empieza cuando el balón deja las manos del árbitro en el salto del círculo central.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-9.2",
+  "regla_id": "R-9",
+  "num": "9.2",
+  "resumen_propio": "Los demás cuartos y prórrogas empiezan cuando el balón está a disposición del sacador.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-9.3",
+  "regla_id": "R-9",
+  "num": "9.3",
+  "resumen_propio": "El partido no puede empezar si algún equipo no tiene 5 jugadores listos en cancha.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-9.4",
+  "regla_id": "R-9",
+  "num": "9.4",
+  "resumen_propio": "El equipo local (primero en el calendario) ocupa banquillo y medio campo a la izquierda de la mesa.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-9.5",
+  "regla_id": "R-9",
+  "num": "9.5",
+  "resumen_propio": "Los equipos intercambian canastas y medio campo de calentamiento en la segunda mitad.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-9.6",
+  "regla_id": "R-9",
+  "num": "9.6",
+  "resumen_propio": "En las prórrogas se juega hacia las mismas canastas que en el 4.º cuarto.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-9.7",
+  "regla_id": "R-9",
+  "num": "9.7",
+  "resumen_propio": "El cuarto termina al sonar la señal de fin; si el tablero tiene luces, estas prevalecen sobre el sonido.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-10.1",
+  "regla_id": "R-10",
+  "num": "10.1",
+  "resumen_propio": "El balón puede estar vivo o muerto.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-10.2",
+  "regla_id": "R-10",
+  "num": "10.2",
+  "resumen_propio": "Se vuelve vivo en el salto (al dejar las manos del árbitro), en el tiro libre y en el saque (al ponerse a disposición).",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-10.3",
+  "regla_id": "R-10",
+  "num": "10.3",
+  "resumen_propio": "Pasa a muerto al anotar, al sonar el silbato o ciertas señales, o cuando es evidente que un tiro libre con más tiros no entrará.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-10.4",
+  "regla_id": "R-10",
+  "num": "10.4",
+  "resumen_propio": "No se vuelve muerto y la canasta cuenta si la señal de fin o el silbato suenan con el balón en vuelo hacia la canasta.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-11.1",
+  "regla_id": "R-11",
+  "num": "11.1",
+  "resumen_propio": "La posición de un jugador la define dónde toca el suelo; en el aire conserva el estatus del último contacto, incluidas las líneas.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-11.2",
+  "regla_id": "R-11",
+  "num": "11.2",
+  "resumen_propio": "La posición del árbitro se determina igual; si el balón lo toca, equivale a tocar el suelo en su posición.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-12.1",
+  "regla_id": "R-12",
+  "num": "12.1",
+  "resumen_propio": "Salto entre dos: el árbitro lanza el balón entre dos rivales. Balón retenido: dos rivales lo sujetan con firmeza sin poder ganarlo.",
+  "sub_detalle (X.Y.Z)": "12.1.1, 12.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-12.2",
+  "regla_id": "R-12",
+  "num": "12.2",
+  "resumen_propio": "Cada saltador se coloca con ambos pies en su mitad del círculo, un pie junto a la línea central; los compañeros no ocupan posiciones contiguas.",
+  "sub_detalle (X.Y.Z)": "12.2.1, 12.2.2, 12.2.3, 12.2.4, 12.2.5, 12.2.6, 12.2.7, 12.2.8",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-12.3",
+  "regla_id": "R-12",
+  "num": "12.3",
+  "resumen_propio": "Penalización por infracción del salto: saque para el rival desde el punto más cercano.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-12.4",
+  "regla_id": "R-12",
+  "num": "12.4",
+  "resumen_propio": "Hay situación de salto al pitarse balón retenido, al dudar quién sacó el balón fuera, doble tiro libre fallido, etc.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-12.5",
+  "regla_id": "R-12",
+  "num": "12.5",
+  "resumen_propio": "La posesión alterna pone el balón en juego con un saque en vez de con un nuevo salto.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-12.6",
+  "regla_id": "R-12",
+  "num": "12.6",
+  "resumen_propio": "En las situaciones de salto, los equipos se alternan la posesión según la flecha; tras usarla, la flecha cambia de sentido.",
+  "sub_detalle (X.Y.Z)": "12.6.1, 12.6.2, 12.6.3, 12.6.4, 12.6.5, 12.6.6",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-13.1",
+  "regla_id": "R-13",
+  "num": "13.1",
+  "resumen_propio": "El balón se juega solo con las manos: puede pasarse, lanzarse, palmearse, rodarse o botarse.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-13.2",
+  "regla_id": "R-13",
+  "num": "13.2",
+  "resumen_propio": "No se puede correr con el balón, patearlo o bloquearlo con la pierna, ni golpearlo con el puño deliberadamente.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-13.3",
+  "regla_id": "R-13",
+  "num": "13.3",
+  "resumen_propio": "Penalización: saque para el rival desde el punto más cercano.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-14.1",
+  "regla_id": "R-14",
+  "num": "14.1",
+  "resumen_propio": "Un equipo controla el balón cuando un jugador lo sostiene, bota o lo tiene a su disposición; termina con balón muerto, ganado por el rival o lanzado a tiro.",
+  "sub_detalle (X.Y.Z)": "14.1.1, 14.1.2, 14.1.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-15.1",
+  "regla_id": "R-15",
+  "num": "15.1",
+  "resumen_propio": "Acción de tiro: el balón se sostiene y se lanza al aire hacia la canasta rival; define cuándo empieza y acaba el gesto de lanzamiento.",
+  "sub_detalle (X.Y.Z)": "15.1.1, 15.1.2, 15.1.3, 15.1.4, 15.1.5, 15.1.6",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-16.1",
+  "regla_id": "R-16",
+  "num": "16.1",
+  "resumen_propio": "Hay canasta cuando un balón vivo entra por arriba y permanece o atraviesa la canasta.",
+  "sub_detalle (X.Y.Z)": "16.1.1, 16.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-16.2",
+  "regla_id": "R-16",
+  "num": "16.2",
+  "resumen_propio": "Valor: 1 punto el tiro libre, 2 desde la zona de dos y 3 desde detrás de la línea de tres.",
+  "sub_detalle (X.Y.Z)": "16.2.1, 16.2.2, 16.2.3, 16.2.4, 16.2.5",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-17.1",
+  "regla_id": "R-17",
+  "num": "17.1",
+  "resumen_propio": "El saque pone el balón en juego desde fuera; empieza al ponerse a disposición del sacador y termina al tocarlo un jugador en cancha.",
+  "sub_detalle (X.Y.Z)": "17.1.1, 17.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-17.2",
+  "regla_id": "R-17",
+  "num": "17.2",
+  "resumen_propio": "El árbitro entrega o pone el balón a disposición; puede botárselo o lanzárselo si está a menos de 4 m.",
+  "sub_detalle (X.Y.Z)": "17.2.1, 17.2.2, 17.2.3, 17.2.4, 17.2.5, 17.2.6, 17.2.7, 17.2.8, 17.2.9, 17.2.10",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-17.3",
+  "regla_id": "R-17",
+  "num": "17.3",
+  "resumen_propio": "El sacador no puede tardar más de 5 s, pisar dentro con el balón, ni provocar que el balón salga tras soltarlo.",
+  "sub_detalle (X.Y.Z)": "17.3.1, 17.3.2, 17.3.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-17.4",
+  "regla_id": "R-17",
+  "num": "17.4",
+  "resumen_propio": "Penalización: saque para el rival desde el lugar del saque original.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-18.1",
+  "regla_id": "R-18",
+  "num": "18.1",
+  "resumen_propio": "El tiempo muerto es una interrupción solicitada por el entrenador o el primer ayudante.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-18.2",
+  "regla_id": "R-18",
+  "num": "18.2",
+  "resumen_propio": "Cada tiempo muerto dura 1 minuto y se concede en una oportunidad de tiempo muerto (balón muerto, reloj parado).",
+  "sub_detalle (X.Y.Z)": "18.2.1, 18.2.2, 18.2.3, 18.2.4, 18.2.5, 18.2.6, 18.2.7, 18.2.8",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-18.3",
+  "regla_id": "R-18",
+  "num": "18.3",
+  "resumen_propio": "Solo el entrenador o ayudante puede pedirlo, con contacto visual o acudiendo a la mesa y pidiéndolo con claridad.",
+  "sub_detalle (X.Y.Z)": "18.3.1, 18.3.2, 18.3.3, 18.3.4, 18.3.5, 18.3.6",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-19.1",
+  "regla_id": "R-19",
+  "num": "19.1",
+  "resumen_propio": "La sustitución es una interrupción solicitada por el sustituto para convertirse en jugador.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-19.2",
+  "regla_id": "R-19",
+  "num": "19.2",
+  "resumen_propio": "Se permite en una oportunidad de sustitución (balón muerto, reloj parado tras pitar el árbitro).",
+  "sub_detalle (X.Y.Z)": "19.2.1, 19.2.2, 19.2.3, 19.2.4, 19.2.5, 19.2.6",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-19.3",
+  "regla_id": "R-19",
+  "num": "19.3",
+  "resumen_propio": "Solo el sustituto puede pedirla, presentándose en la mesa y pidiéndola con claridad.",
+  "sub_detalle (X.Y.Z)": "19.3.1, 19.3.2, 19.3.3, 19.3.4, 19.3.5, 19.3.6, 19.3.7, 19.3.8, 19.3.9",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-20.1",
+  "regla_id": "R-20",
+  "num": "20.1",
+  "resumen_propio": "Un equipo pierde por incomparecencia si no alinea 5 jugadores 15 min tras la hora, o si impide que se juegue.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-20.2",
+  "regla_id": "R-20",
+  "num": "20.2",
+  "resumen_propio": "Penalización: partido para el rival 20-0 y 0 puntos de clasificación para el infractor.",
+  "sub_detalle (X.Y.Z)": "20.2.1, 20.2.2, 20.2.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-21.1",
+  "regla_id": "R-21",
+  "num": "21.1",
+  "resumen_propio": "Un equipo pierde por inferioridad si durante el partido quedan menos de 2 jugadores listos en cancha.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-21.2",
+  "regla_id": "R-21",
+  "num": "21.2",
+  "resumen_propio": "Si el beneficiado va ganando, se mantiene el marcador; si no, el resultado es 2-0.",
+  "sub_detalle (X.Y.Z)": "21.2.1, 21.2.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-22.1",
+  "regla_id": "R-22",
+  "num": "22.1",
+  "resumen_propio": "Una violación es una infracción de las reglas.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-22.2",
+  "regla_id": "R-22",
+  "num": "22.2",
+  "resumen_propio": "Penalización: saque para el rival desde el punto más cercano, salvo que la regla diga otra cosa.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-23.1",
+  "regla_id": "R-23",
+  "num": "23.1",
+  "resumen_propio": "Un jugador está fuera al tocar el suelo u objeto fuera; el balón está fuera al tocar fuera, a alguien fuera o los soportes.",
+  "sub_detalle (X.Y.Z)": "23.1.1, 23.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-23.2",
+  "regla_id": "R-23",
+  "num": "23.2",
+  "resumen_propio": "Provoca la salida el último jugador que toca el balón (o es tocado por él) antes de que salga.",
+  "sub_detalle (X.Y.Z)": "23.2.1, 23.2.2, 23.2.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-24.1",
+  "regla_id": "R-24",
+  "num": "24.1",
+  "resumen_propio": "El regate empieza al lanzar, palmear o botar el balón controlándolo, y termina al tomarlo con una o ambas manos.",
+  "sub_detalle (X.Y.Z)": "24.1.1, 24.1.2, 24.1.3, 24.1.4",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-24.2",
+  "regla_id": "R-24",
+  "num": "24.2",
+  "resumen_propio": "No se puede iniciar un segundo regate tras terminar el primero, salvo excepciones (tras tiro, toque del rival o pérdida del control).",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-25.1",
+  "regla_id": "R-25",
+  "num": "25.1",
+  "resumen_propio": "Pasos: movimiento ilegal de uno o ambos pies con un balón vivo. El pivote es el giro legal manteniendo un pie en su punto de apoyo.",
+  "sub_detalle (X.Y.Z)": "25.1.1, 25.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-25.2",
+  "regla_id": "R-25",
+  "num": "25.2",
+  "resumen_propio": "Regula el establecimiento del pie de pivote según cómo se reciba el balón y los apoyos permitidos para pasar, tirar o botar.",
+  "sub_detalle (X.Y.Z)": "25.2.1, 25.2.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-26.1",
+  "regla_id": "R-26",
+  "num": "26.1",
+  "resumen_propio": "Un atacante no puede permanecer más de 3 s seguidos en la zona rival mientras su equipo controla el balón en ataque y corre el reloj.",
+  "sub_detalle (X.Y.Z)": "26.1.1, 26.1.2, 26.1.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-27.1",
+  "regla_id": "R-27",
+  "num": "27.1",
+  "resumen_propio": "Un jugador que sostiene el balón está estrechamente marcado si un rival está en posición de defensa activa a 1 m o menos.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-27.2",
+  "regla_id": "R-27",
+  "num": "27.2",
+  "resumen_propio": "Estrechamente marcado, debe pasar, tirar o botar antes de 5 segundos.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-28.1",
+  "regla_id": "R-28",
+  "num": "28.1",
+  "resumen_propio": "Al ganar el control en su pista de defensa, el equipo tiene 8 s para hacer pasar el balón a su pista de ataque.",
+  "sub_detalle (X.Y.Z)": "28.1.1, 28.1.2, 28.1.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-29.1",
+  "regla_id": "R-29",
+  "num": "29.1",
+  "resumen_propio": "Al ganar el control, el equipo debe intentar un tiro a canasta antes de 24 segundos.",
+  "sub_detalle (X.Y.Z)": "29.1.1, 29.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-29.2",
+  "regla_id": "R-29",
+  "num": "29.2",
+  "resumen_propio": "Detalla el inicio a 24 s y los reinicios a 24 o 14 s según quién provoque la parada y dónde se saque (14 en ataque si quedaban 13 s o menos).",
+  "sub_detalle (X.Y.Z)": "29.2.1, 29.2.2, 29.2.3, 29.2.4, 29.2.5, 29.2.6, 29.2.7, 29.2.8",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-30.1",
+  "regla_id": "R-30",
+  "num": "30.1",
+  "resumen_propio": "Un equipo controla en ataque cuando un jugador toca con ambos pies la pista de ataque con el balón, o el balón ya estaba allí controlado.",
+  "sub_detalle (X.Y.Z)": "30.1.1, 30.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-30.2",
+  "regla_id": "R-30",
+  "num": "30.2",
+  "resumen_propio": "El equipo que controla en ataque no puede provocar que el balón vuelva ilegalmente a su pista de defensa.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-30.3",
+  "regla_id": "R-30",
+  "num": "30.3",
+  "resumen_propio": "Penalización: saque para el rival en su pista de ataque desde el punto más cercano.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-31.1",
+  "regla_id": "R-31",
+  "num": "31.1",
+  "resumen_propio": "Define inicio y fin de un tiro o tiro libre para juzgar interposición e interferencia.",
+  "sub_detalle (X.Y.Z)": "31.1.1",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-31.2",
+  "regla_id": "R-31",
+  "num": "31.2",
+  "resumen_propio": "Interposición: tocar el balón sobre el nivel del aro en su descenso o tras tocar el tablero; interferencia: tocarlo sobre el aro o tocar aro/canasta.",
+  "sub_detalle (X.Y.Z)": "31.2.1, 31.2.2, 31.2.3, 31.2.4, 31.2.5",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-31.3",
+  "regla_id": "R-31",
+  "num": "31.3",
+  "resumen_propio": "Si la comete el atacante, no hay puntos y saque para el rival; si el defensor, se concede la canasta.",
+  "sub_detalle (X.Y.Z)": "31.3.1, 31.3.2, 31.3.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-32.1",
+  "regla_id": "R-32",
+  "num": "32.1",
+  "resumen_propio": "Una falta es una infracción por contacto personal ilegal o conducta antideportiva; se registra al infractor.",
+  "sub_detalle (X.Y.Z)": "32.1.1, 32.1.2, 32.1.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.1",
+  "regla_id": "R-33",
+  "num": "33.1",
+  "resumen_propio": "Principio del cilindro: el espacio imaginario que ocupa un jugador, variable según su altura y posición.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.2",
+  "regla_id": "R-33",
+  "num": "33.2",
+  "resumen_propio": "Verticalidad: cada jugador tiene derecho a su espacio vertical (cilindro) y responde de invadir el del rival.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.3",
+  "regla_id": "R-33",
+  "num": "33.3",
+  "resumen_propio": "Posición legal de defensa: encarar al rival con ambos pies en el suelo; se extiende verticalmente dentro del cilindro.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.4",
+  "regla_id": "R-33",
+  "num": "33.4",
+  "resumen_propio": "Al defender a quien controla el balón no aplican tiempo ni distancia: el atacante debe esperar ser defendido.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.5",
+  "regla_id": "R-33",
+  "num": "33.5",
+  "resumen_propio": "Al defender a quien no controla el balón sí aplican tiempo y distancia para que el atacante pueda detenerse o cambiar.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.6",
+  "regla_id": "R-33",
+  "num": "33.6",
+  "resumen_propio": "Quien salta tiene derecho a caer en el mismo sitio o en otro libre; el rival no puede ocupar ese lugar de aterrizaje.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.7",
+  "regla_id": "R-33",
+  "num": "33.7",
+  "resumen_propio": "Pantalla legal e ilegal: el que la pone debe estar quieto y dar espacio según el rival esté parado o en movimiento.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.8",
+  "regla_id": "R-33",
+  "num": "33.8",
+  "resumen_propio": "Carga: contacto ilegal del atacante empujando o entrando en el torso del rival.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.9",
+  "regla_id": "R-33",
+  "num": "33.9",
+  "resumen_propio": "Bloqueo personal: contacto ilegal que impide el avance del rival; ponerla en movimiento puede ser falta.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.10",
+  "regla_id": "R-33",
+  "num": "33.10",
+  "resumen_propio": "Semicírculo de no carga: bajo el aro no se sanciona carga al atacante que penetra si el defensor está en esa zona.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.11",
+  "regla_id": "R-33",
+  "num": "33.11",
+  "resumen_propio": "Tocar al rival con manos o brazos no es falta en sí; lo es si quien lo causa obtiene ventaja.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.12",
+  "regla_id": "R-33",
+  "num": "33.12",
+  "resumen_propio": "Juego de poste: aplica la verticalidad; atacante y defensor deben respetar su posición vertical mutua.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.13",
+  "regla_id": "R-33",
+  "num": "33.13",
+  "resumen_propio": "Defensa ilegal por detrás: contacto del defensor desde atrás; intentar jugar el balón no lo justifica.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.14",
+  "regla_id": "R-33",
+  "num": "33.14",
+  "resumen_propio": "Sujetar: contacto ilegal que interfiere la libertad de movimiento del rival, con cualquier parte del cuerpo.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.15",
+  "regla_id": "R-33",
+  "num": "33.15",
+  "resumen_propio": "Empujar: contacto ilegal que mueve o intenta mover al rival, con o sin balón.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-33.16",
+  "regla_id": "R-33",
+  "num": "33.16",
+  "resumen_propio": "Fingir falta: simular ser objeto de falta o exagerar para aparentar contacto y obtener ventaja.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-34.1",
+  "regla_id": "R-34",
+  "num": "34.1",
+  "resumen_propio": "Falta personal: contacto ilegal con un rival (sujetar, bloquear, empujar, cargar, zancadillear o impedir el avance).",
+  "sub_detalle (X.Y.Z)": "34.1.1, 34.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-34.2",
+  "regla_id": "R-34",
+  "num": "34.2",
+  "resumen_propio": "Penalización: se registra al infractor; saque o tiros libres según haya o no acción de tiro y la situación de penalización.",
+  "sub_detalle (X.Y.Z)": "34.2.1, 34.2.2, 34.2.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-35.1",
+  "regla_id": "R-35",
+  "num": "35.1",
+  "resumen_propio": "Falta doble: dos rivales se cometen faltas (personales o antideportivas/descalificantes) aproximadamente a la vez.",
+  "sub_detalle (X.Y.Z)": "35.1.1, 35.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-35.2",
+  "regla_id": "R-35",
+  "num": "35.2",
+  "resumen_propio": "Se registra una falta a cada uno; sin tiros libres, el juego se reanuda según el control o la posesión alterna.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-36.1",
+  "regla_id": "R-36",
+  "num": "36.1",
+  "resumen_propio": "Reglas de conducta: jugadores y cuerpo técnico deben cooperar leal y plenamente con los árbitros y la mesa.",
+  "sub_detalle (X.Y.Z)": "36.1.1, 36.1.2, 36.1.3, 36.1.4, 36.1.5",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-36.2",
+  "regla_id": "R-36",
+  "num": "36.2",
+  "resumen_propio": "Falta técnica: falta de conducta sin contacto (desobedecer avisos, faltar al respeto, demorar el juego, etc.).",
+  "sub_detalle (X.Y.Z)": "36.2.1, 36.2.2, 36.2.3, 36.2.4, 36.2.5",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-36.3",
+  "regla_id": "R-36",
+  "num": "36.3",
+  "resumen_propio": "Penalización: 1 tiro libre y posesión; cuenta como falta de equipo si la comete un jugador.",
+  "sub_detalle (X.Y.Z)": "36.3.1, 36.3.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-37.1",
+  "regla_id": "R-37",
+  "num": "37.1",
+  "resumen_propio": "Falta antideportiva: contacto que no es esfuerzo legítimo por jugar el balón, excesivo, innecesario o según criterios definidos.",
+  "sub_detalle (X.Y.Z)": "37.1.1, 37.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-37.2",
+  "regla_id": "R-37",
+  "num": "37.2",
+  "resumen_propio": "Penalización: tiros libres para el agredido más saque desde la línea de saque en su pista de ataque.",
+  "sub_detalle (X.Y.Z)": "37.2.1, 37.2.2, 37.2.3, 37.2.4",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-38.1",
+  "regla_id": "R-38",
+  "num": "38.1",
+  "resumen_propio": "Falta descalificante: acción antideportiva flagrante de jugadores o miembros del banquillo.",
+  "sub_detalle (X.Y.Z)": "38.1.1, 38.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-38.2",
+  "regla_id": "R-38",
+  "num": "38.2",
+  "resumen_propio": "Violencia: los actos violentos deben detenerse de inmediato, con apoyo del orden público si hace falta.",
+  "sub_detalle (X.Y.Z)": "38.2.1, 38.2.2, 38.2.3, 38.2.4, 38.2.5, 38.2.6",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-38.3",
+  "regla_id": "R-38",
+  "num": "38.3",
+  "resumen_propio": "Penalización: se registra al infractor, que es expulsado del recinto, más tiros libres y posesión.",
+  "sub_detalle (X.Y.Z)": "38.3.1, 38.3.2, 38.3.3, 38.3.4",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-39.1",
+  "regla_id": "R-39",
+  "num": "39.1",
+  "resumen_propio": "Pelea: interacción física entre rivales o personas del banquillo; regula a quienes pueden sentarse en él.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-39.2",
+  "regla_id": "R-39",
+  "num": "39.2",
+  "resumen_propio": "Quien abandona la zona de banquillo durante una pelea (o situación que pueda llevar a ella) es descalificado.",
+  "sub_detalle (X.Y.Z)": "39.2.1, 39.2.2, 39.2.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-39.3",
+  "regla_id": "R-39",
+  "num": "39.3",
+  "resumen_propio": "Sea cual sea el número de expulsados por dejar el banquillo, se carga una técnica 'B' al entrenador.",
+  "sub_detalle (X.Y.Z)": "39.3.1, 39.3.2, 39.3.3, 39.3.4, 39.3.5",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-40.1",
+  "regla_id": "R-40",
+  "num": "40.1",
+  "resumen_propio": "Quien comete su 5.ª falta es informado por el árbitro y debe abandonar el juego de inmediato.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-40.2",
+  "regla_id": "R-40",
+  "num": "40.2",
+  "resumen_propio": "Un entrenador-jugador con 5 faltas como jugador queda excluido como jugador pero puede seguir de entrenador.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-40.3",
+  "regla_id": "R-40",
+  "num": "40.3",
+  "resumen_propio": "La falta de un jugador ya excluido por 5 faltas se carga al entrenador ('B').",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-40.4",
+  "regla_id": "R-40",
+  "num": "40.4",
+  "resumen_propio": "Dos técnicas, dos antideportivas, o una de cada conllevan descalificación del partido.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-40.5",
+  "regla_id": "R-40",
+  "num": "40.5",
+  "resumen_propio": "Un entrenador con dos técnicas 'C' personales, o tres técnicas, es descalificado del partido.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-40.6",
+  "regla_id": "R-40",
+  "num": "40.6",
+  "resumen_propio": "El descalificado debe marcharse en 30 s y permanecer en el vestuario o salir del recinto.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-41.1",
+  "regla_id": "R-41",
+  "num": "41.1",
+  "resumen_propio": "Hay situación de penalización tras 4 faltas de equipo en el cuarto; cuentan personales, técnicas, antideportivas y descalificantes.",
+  "sub_detalle (X.Y.Z)": "41.1.1, 41.1.2, 41.1.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-41.2",
+  "regla_id": "R-41",
+  "num": "41.2",
+  "resumen_propio": "En penalización, cada falta personal sobre un no tirador se castiga con 2 tiros libres en vez de saque.",
+  "sub_detalle (X.Y.Z)": "41.2.1, 41.2.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-42.1",
+  "regla_id": "R-42",
+  "num": "42.1",
+  "resumen_propio": "Situaciones especiales: en un mismo periodo de balón parado tras una infracción surgen infracciones adicionales.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-42.2",
+  "regla_id": "R-42",
+  "num": "42.2",
+  "resumen_propio": "Se registran todas las faltas, se determina el orden, se cancelan penalizaciones iguales y se reanuda según corresponda.",
+  "sub_detalle (X.Y.Z)": "42.2.1, 42.2.2, 42.2.3, 42.2.4, 42.2.5, 42.2.6, 42.2.7, 42.2.8",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-43.1",
+  "regla_id": "R-43",
+  "num": "43.1",
+  "resumen_propio": "Tiro libre: oportunidad de anotar 1 punto sin oposición desde detrás de la línea, dentro del semicírculo.",
+  "sub_detalle (X.Y.Z)": "43.1.1, 43.1.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-43.2",
+  "regla_id": "R-43",
+  "num": "43.2",
+  "resumen_propio": "Lanza el jugador agredido; reglas sobre quién y cómo se ejecutan los tiros según el tipo de falta.",
+  "sub_detalle (X.Y.Z)": "43.2.1, 43.2.2, 43.2.3, 43.2.4, 43.2.5, 43.2.6",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-43.3",
+  "regla_id": "R-43",
+  "num": "43.3",
+  "resumen_propio": "Si el tirador comete violación y el tiro entra, el punto no cuenta y saque para el rival.",
+  "sub_detalle (X.Y.Z)": "43.3.1, 43.3.2, 43.3.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-44.1",
+  "regla_id": "R-44",
+  "num": "44.1",
+  "resumen_propio": "El árbitro puede detener el juego al detectar un error rectificable, salvo que un equipo quede en desventaja.",
+  "sub_detalle (X.Y.Z)": "44.1.1, 44.1.2, 44.1.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-44.2",
+  "regla_id": "R-44",
+  "num": "44.2",
+  "resumen_propio": "Errores de categoría 1: tiro libre indebido, no conceder uno merecido, puntos al equipo equivocado, etc.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-44.3",
+  "regla_id": "R-44",
+  "num": "44.3",
+  "resumen_propio": "Procedimiento y plazos para identificar y corregir los errores de categoría 1.",
+  "sub_detalle (X.Y.Z)": "44.3.1, 44.3.2, 44.3.3",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-44.4",
+  "regla_id": "R-44",
+  "num": "44.4",
+  "resumen_propio": "Procedimientos específicos para subsanar cada tipo de error de categoría 1 y reanudar el juego.",
+  "sub_detalle (X.Y.Z)": "44.4.1, 44.4.2, 44.4.3, 44.4.4, 44.4.5, 44.4.6, 44.4.7, 44.4.8",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-44.5",
+  "regla_id": "R-44",
+  "num": "44.5",
+  "resumen_propio": "Error de categoría 2: fallos del reloj de lanzamiento (arranque, parada o reinicio incorrectos).",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-44.6",
+  "regla_id": "R-44",
+  "num": "44.6",
+  "resumen_propio": "Procedimiento y plazo para corregir el error de categoría 2 (balón vivo justo tras el error).",
+  "sub_detalle (X.Y.Z)": "44.6.1, 44.6.2",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-45.1",
+  "regla_id": "R-45",
+  "num": "45.1",
+  "resumen_propio": "Los árbitros son un principal y uno o dos auxiliares, asistidos por la mesa y el comisario si lo hay.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-45.2",
+  "regla_id": "R-45",
+  "num": "45.2",
+  "resumen_propio": "Los oficiales de mesa son anotador, ayudante de anotador, cronometrador y operador del reloj de lanzamiento.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-45.3",
+  "regla_id": "R-45",
+  "num": "45.3",
+  "resumen_propio": "El comisario, si lo hay, se sienta entre anotador y cronometrador y supervisa la mesa, ayudando a los árbitros.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-45.4",
+  "regla_id": "R-45",
+  "num": "45.4",
+  "resumen_propio": "Los árbitros del partido no deben tener vínculo alguno con los equipos.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-45.5",
+  "regla_id": "R-45",
+  "num": "45.5",
+  "resumen_propio": "Árbitros, mesa y comisario dirigen el partido según las reglas, sin autoridad para cambiarlas.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-45.6",
+  "regla_id": "R-45",
+  "num": "45.6",
+  "resumen_propio": "Uniforme arbitral: camiseta reglamentaria, pantalón negro, calcetines negros y zapatillas negras.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-45.7",
+  "regla_id": "R-45",
+  "num": "45.7",
+  "resumen_propio": "Árbitros y oficiales de mesa deben vestir de forma uniforme.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.1",
+  "regla_id": "R-46",
+  "num": "46.1",
+  "resumen_propio": "El árbitro principal inspecciona y aprueba todo el equipamiento del partido.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.2",
+  "regla_id": "R-46",
+  "num": "46.2",
+  "resumen_propio": "Designa el reloj de juego, el de lanzamiento y el cronómetro, e identifica a la mesa.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.3",
+  "regla_id": "R-46",
+  "num": "46.3",
+  "resumen_propio": "Elige el balón de juego entre al menos dos usados que aporta el local.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.4",
+  "regla_id": "R-46",
+  "num": "46.4",
+  "resumen_propio": "No permite a los jugadores llevar objetos que puedan causar lesiones.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.5",
+  "regla_id": "R-46",
+  "num": "46.5",
+  "resumen_propio": "Dirige el salto inicial del primer cuarto y los saques de posesión alterna en los demás.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.6",
+  "regla_id": "R-46",
+  "num": "46.6",
+  "resumen_propio": "Tiene potestad para detener el partido cuando las circunstancias lo justifican.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.7",
+  "regla_id": "R-46",
+  "num": "46.7",
+  "resumen_propio": "Tiene potestad para declarar un partido perdido por incomparecencia.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.8",
+  "regla_id": "R-46",
+  "num": "46.8",
+  "resumen_propio": "Examina con cuidado el acta al final del partido o cuando sea necesario.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.9",
+  "regla_id": "R-46",
+  "num": "46.9",
+  "resumen_propio": "Aprueba y firma el acta al final, lo que termina la actuación arbitral.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.10",
+  "regla_id": "R-46",
+  "num": "46.10",
+  "resumen_propio": "Anota al dorso del acta incomparecencias, descalificantes y conductas antideportivas relevantes.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.11",
+  "regla_id": "R-46",
+  "num": "46.11",
+  "resumen_propio": "Toma la decisión final cuando es necesario o cuando los árbitros discrepan, pudiendo consultar.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.12",
+  "regla_id": "R-46",
+  "num": "46.12",
+  "resumen_propio": "En partidos con repetición instantánea (IRS), remite al Apéndice F.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.13",
+  "regla_id": "R-46",
+  "num": "46.13",
+  "resumen_propio": "Avisado por el cronometrador, pita antes de cada cuarto en los tiempos establecidos.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-46.14",
+  "regla_id": "R-46",
+  "num": "46.14",
+  "resumen_propio": "Tiene potestad para decidir sobre cualquier asunto no contemplado en las reglas.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-47.1",
+  "regla_id": "R-47",
+  "num": "47.1",
+  "resumen_propio": "Los árbitros deciden sobre infracciones dentro y fuera de las líneas, incluida la zona de mesa y banquillos.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-47.2",
+  "regla_id": "R-47",
+  "num": "47.2",
+  "resumen_propio": "Pitan al producirse una infracción o al acabar un cuarto; no pitan tras canasta o tiro libre logrado ni al hacerse vivo el balón.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-47.3",
+  "regla_id": "R-47",
+  "num": "47.3",
+  "resumen_propio": "Al decidir aplican principios fundamentales: espíritu de las reglas, ventaja/desventaja y coherencia.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-47.4",
+  "regla_id": "R-47",
+  "num": "47.4",
+  "resumen_propio": "Si hay reclamación, el árbitro principal informa por escrito del incidente al organizador.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-47.5",
+  "regla_id": "R-47",
+  "num": "47.5",
+  "resumen_propio": "Si un árbitro se lesiona y no puede seguir en 5 min, el partido se reanuda con el resto.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-47.6",
+  "regla_id": "R-47",
+  "num": "47.6",
+  "resumen_propio": "En partidos internacionales, si hace falta comunicación verbal, se usa el inglés.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-47.7",
+  "regla_id": "R-47",
+  "num": "47.7",
+  "resumen_propio": "Cada árbitro decide dentro de sus funciones y no puede ignorar ni cuestionar las del otro.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-47.8",
+  "regla_id": "R-47",
+  "num": "47.8",
+  "resumen_propio": "La aplicación e interpretación de las reglas por los árbitros es definitiva, salvo reclamación permitida.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-48.1",
+  "regla_id": "R-48",
+  "num": "48.1",
+  "resumen_propio": "El anotador lleva el acta: jugadores, puntos, faltas, tiempos muertos y la flecha de posesión alterna, y avisa de situaciones.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-48.2",
+  "regla_id": "R-48",
+  "num": "48.2",
+  "resumen_propio": "El ayudante maneja el marcador; si discrepa del acta y no se resuelve, prevalece el acta.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-48.3",
+  "regla_id": "R-48",
+  "num": "48.3",
+  "resumen_propio": "Si se detecta un error en el acta, el anotador consulta al árbitro principal y lo corrige en plazo.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-49.1",
+  "regla_id": "R-49",
+  "num": "49.1",
+  "resumen_propio": "El cronometrador mide tiempo de juego, tiempos muertos e intervalos, y asegura que la señal de fin suene fuerte.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-49.2",
+  "regla_id": "R-49",
+  "num": "49.2",
+  "resumen_propio": "Pone en marcha y detiene el reloj de juego según las situaciones (salto, tiro libre, saque, canasta, silbato).",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-49.3",
+  "regla_id": "R-49",
+  "num": "49.3",
+  "resumen_propio": "Mide el tiempo muerto: arranca al pitar, avisa a los 50 s y señala el fin.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-49.4",
+  "regla_id": "R-49",
+  "num": "49.4",
+  "resumen_propio": "Mide el intervalo de juego y avisa a los árbitros en los tiempos establecidos antes de cada cuarto.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-50.1",
+  "regla_id": "R-50",
+  "num": "50.1",
+  "resumen_propio": "El reloj de lanzamiento arranca o se reinicia cuando un equipo gana el control del balón en cancha.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-50.2",
+  "regla_id": "R-50",
+  "num": "50.2",
+  "resumen_propio": "Se detiene sin reiniciar (tiempo visible) cuando el mismo equipo con el control saca por salida, lesión o técnica del rival.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-50.3",
+  "regla_id": "R-50",
+  "num": "50.3",
+  "resumen_propio": "Se detiene y reinicia a 24 s (sin pantalla) al entrar el balón, al ganarlo el rival o en ciertos toques del aro.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-50.4",
+  "regla_id": "R-50",
+  "num": "50.4",
+  "resumen_propio": "Se detiene y reinicia a 14 s cuando el mismo equipo saca en su pista de ataque y quedaban 13 s o menos.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "S-50.5",
+  "regla_id": "R-50",
+  "num": "50.5",
+  "resumen_propio": "Se apaga cuando, con balón muerto y reloj parado, hay nuevo control y quedan menos de 14 s en el reloj de juego.",
+  "sub_detalle (X.Y.Z)": "",
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ }
+]
