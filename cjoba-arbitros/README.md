@@ -70,6 +70,28 @@ en la sesión actual. Para guardarlas de verdad:
                        && request.resource.data.titulo.size() > 0;
          allow update, delete: if false;
        }
+       match /opiniones/{doc} {
+         allow read: if true;
+         allow create: if request.resource.data.texto is string
+                       && request.resource.data.texto.size() > 0;
+         allow update, delete: if false;
+       }
+     }
+   }
+   ```
+
+4. Para las fotos de las jugadas, activa **Storage** (ya lo tienes) y pon estas reglas en
+   Storage → Rules para permitir subir imágenes a la carpeta `casos/`:
+
+   ```
+   rules_version = '2';
+   service firebase.storage {
+     match /b/{bucket}/o {
+       match /casos/{img} {
+         allow read: if true;
+         allow write: if request.resource.size < 8 * 1024 * 1024
+                      && request.resource.contentType.matches('image/.*');
+       }
      }
    }
    ```

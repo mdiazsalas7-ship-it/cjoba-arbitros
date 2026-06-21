@@ -2,7 +2,6 @@ import { useMemo, useState } from 'react'
 import senales from '../data/senales.json'
 
 const norm = (s) => (s || '').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-
 const CATS = [
   { id: 'numeros', label: 'Números' },
   { id: 'reloj', label: 'Reloj' },
@@ -15,6 +14,7 @@ const CATS = [
 export default function Senales() {
   const [cat, setCat] = useState(null)
   const [q, setQ] = useState('')
+  const [sel, setSel] = useState(null)
   const query = norm(q)
 
   const list = useMemo(() => senales.filter(s =>
@@ -27,7 +27,7 @@ export default function Senales() {
       <div className="page-head">
         <p className="eyebrow">Apéndice A</p>
         <h1>Señales</h1>
-        <p>Las {senales.length} señales oficiales de los árbitros FIBA, con su gesto descrito.</p>
+        <p>Las {senales.length} señales oficiales de los árbitros FIBA, con su gráfica y descripción.</p>
       </div>
 
       <div className="search">
@@ -42,20 +42,35 @@ export default function Senales() {
         ))}
       </div>
 
-      <div className="list">
-        {list.length === 0 && <p className="empty">No hay señales que coincidan.</p>}
-        {list.map(s => (
-          <div className="signal" key={s.id}>
-            <div className="signal-fig" aria-hidden="true">✋</div>
-            <div className="signal-body">
-              <p className="signal-name">{s.nombre}</p>
-              <p className="signal-desc">{s.descripcion}</p>
-            </div>
+      {list.length === 0
+        ? <div className="empty"><div className="big">✋</div>No hay señales que coincidan.</div>
+        : (
+          <div className="signal-grid">
+            {list.map(s => (
+              <button className="signal-card" key={s.id} onClick={() => setSel(s)}>
+                <div className="pic">
+                  <img src={s.imagen_url} alt={s.nombre} loading="lazy" />
+                  <span className="tag">{s.categoria.slice(0, 3)}</span>
+                </div>
+                <div className="cap"><h3>{s.nombre}</h3></div>
+              </button>
+            ))}
           </div>
-        ))}
-      </div>
+        )}
 
-      <p className="disclaimer">Gesto descrito en texto. Las ilustraciones oficiales se añaden con material propio o con permiso de FIBA.</p>
+      {sel && (
+        <div className="modal-bg" onClick={() => setSel(null)} role="dialog" aria-modal="true">
+          <div className="modal" onClick={e => e.stopPropagation()}>
+            <p className="eyebrow">Apéndice A · {sel.categoria}</p>
+            <h3 style={{ marginTop: 0 }}>{sel.nombre}</h3>
+            <div className="signal-modal-img"><img src={sel.imagen_url} alt={sel.nombre} /></div>
+            <p style={{ color: 'var(--text)', fontSize: 15 }}>{sel.descripcion}</p>
+            <button className="btn ghost" onClick={() => setSel(null)} style={{ marginTop: 14 }}>Cerrar</button>
+          </div>
+        </div>
+      )}
+
+      <p className="disclaimer">{senales.length} señales del manual de árbitros FIBA.</p>
     </div>
   )
 }
