@@ -1,4 +1,4 @@
-# CJOBA · App de árbitros de baloncesto
+# Árbitro Virtual · App de árbitros de baloncesto
 
 App web para formar y apoyar a árbitros de baloncesto, basada en el reglamento FIBA 2024 (OBR).
 Tres áreas:
