@@ -412,5 +412,311 @@
   "regla_id": "R-29",
   "art": "Reloj de 24",
   "resumen_propio": "Si la falta al tirador ocurrió antes de expirar el reloj (o el balón ya iba en el aire), no hay violación de 24 y la canasta cuenta; si la falta fue después con el balón aún en las manos, sí hay violación."
+ },
+ {
+  "num": "30-1",
+  "regla_id": "R-30",
+  "art": "Campo atrás",
+  "resumen_propio": "Un equipo controla en pista de ataque cuando un jugador con el balón tiene ambos pies y el balón totalmente en ella, o el balón ya estaba allí controlado."
+ },
+ {
+  "num": "30-2",
+  "regla_id": "R-30",
+  "art": "Campo atrás",
+  "resumen_propio": "Hay campo atrás si un atacante en control es el último en tocar el balón en pista de ataque y el primero (él o un compañero) en tocarlo en pista de defensa."
+ },
+ {
+  "num": "30-3",
+  "regla_id": "R-30",
+  "art": "Campo atrás",
+  "resumen_propio": "Un jugador en el aire conserva el estatus (ataque o defensa) del último pie que pisó; saltar desde ataque y caer en defensa con el balón puede ser campo atrás."
+ },
+ {
+  "num": "30-4",
+  "regla_id": "R-30",
+  "art": "Campo atrás",
+  "resumen_propio": "No hay campo atrás si el balón vuelve a la defensa por un toque del rival, durante un salto entre dos, o en un rebote tras un tiro."
+ },
+ {
+  "num": "30-5",
+  "regla_id": "R-30",
+  "art": "Campo atrás",
+  "resumen_propio": "Penalización: saque para el rival en su pista de ataque, desde el punto más cercano (salvo detrás del tablero)."
+ },
+ {
+  "num": "31-1",
+  "regla_id": "R-31",
+  "art": "Interposición/interferencia",
+  "resumen_propio": "Un tiro empieza al soltarse el balón y termina al entrar, al verse que no entrará, al tocar el aro o al ser tocado por un jugador; en su descenso aplican las reglas de interposición."
+ },
+ {
+  "num": "31-2",
+  "regla_id": "R-31",
+  "art": "Interposición/interferencia",
+  "resumen_propio": "Interposición: tocar el balón cuando baja totalmente por encima del nivel del aro en un tiro, o tras tocar el tablero estando sobre el aro."
+ },
+ {
+  "num": "31-3",
+  "regla_id": "R-31",
+  "art": "Interposición/interferencia",
+  "resumen_propio": "Interferencia: tocar el balón o la canasta (aro, red, tablero) con el balón dentro o sobre el aro, o meter la mano por debajo del aro y tocarlo."
+ },
+ {
+  "num": "31-4",
+  "regla_id": "R-31",
+  "art": "Interposición/interferencia",
+  "resumen_propio": "Si la comete la defensa, se conceden los puntos al ataque (2 o 3 según la zona del tiro); si la comete el ataque, no hay puntos y saque para el rival."
+ },
+ {
+  "num": "31-5",
+  "regla_id": "R-31",
+  "art": "Interposición/interferencia",
+  "resumen_propio": "Una vez que el balón toca el aro, cualquiera puede tocarlo aunque esté por encima del nivel del aro: ya no es interposición."
+ },
+ {
+  "num": "31-6",
+  "regla_id": "R-31",
+  "art": "Interposición/interferencia",
+  "resumen_propio": "En un tiro libre, tocar el balón en su trayectoria descendente hacia la canasta es interposición; si la comete la defensa, se concede el punto."
+ },
+ {
+  "num": "33-1",
+  "regla_id": "R-33",
+  "art": "Contacto",
+  "resumen_propio": "El defensor obtiene posición legal inicial al encarar al rival con ambos pies en el suelo; luego puede moverse para mantenerla (lateral o atrás) sin extender brazos o piernas hacia el contacto."
+ },
+ {
+  "num": "33-2",
+  "regla_id": "R-33",
+  "art": "Contacto",
+  "resumen_propio": "Al rival con el balón no se le debe tiempo ni distancia: debe estar listo para detenerse o cambiar cuando un defensor toma posición legal frente a él, aunque sea muy rápido."
+ },
+ {
+  "num": "33-3",
+  "regla_id": "R-33",
+  "art": "Contacto",
+  "resumen_propio": "Al rival sin el balón sí se le debe tiempo y distancia (hasta un paso normal) para que pueda detenerse o cambiar de dirección."
+ },
+ {
+  "num": "33-4",
+  "regla_id": "R-33",
+  "art": "Contacto",
+  "resumen_propio": "Quien salta a un punto tiene derecho a caer en el mismo lugar; el rival no puede colocarse en su trayectoria de aterrizaje después del salto."
+ },
+ {
+  "num": "33-5",
+  "regla_id": "R-33",
+  "art": "Contacto",
+  "resumen_propio": "Cilindro y verticalidad: cada jugador tiene derecho al espacio vertical sobre su posición; el defensor que salta vertical dentro de su cilindro no comete falta aunque haya contacto."
+ },
+ {
+  "num": "33-6",
+  "regla_id": "R-33",
+  "art": "Contacto",
+  "resumen_propio": "El semicírculo de no carga anula la falta de carga del atacante cuando el defensor tiene un pie dentro del semicírculo y el atacante llega desde fuera en penetración."
+ },
+ {
+  "num": "33-7",
+  "regla_id": "R-33",
+  "art": "Contacto",
+  "resumen_propio": "Pantalla: quien la pone debe estar inmóvil y dentro de su cilindro; si la coloca fuera del campo visual del rival, debe dejarle espacio para un paso normal."
+ },
+ {
+  "num": "34-1",
+  "regla_id": "R-34",
+  "art": "Falta personal",
+  "resumen_propio": "Contacto ilegal con un rival (vivo o muerto el balón) al bloquear, sujetar, empujar, cargar o impedir el avance con brazos, hombros, caderas o piernas."
+ },
+ {
+  "num": "34-2",
+  "regla_id": "R-34",
+  "art": "Falta personal",
+  "resumen_propio": "Sin acción de tiro: saque para el equipo del agredido, o 2 tiros libres si el equipo está en penalización (5.ª falta de equipo)."
+ },
+ {
+  "num": "34-3",
+  "regla_id": "R-34",
+  "art": "Falta personal",
+  "resumen_propio": "En acción de tiro: si la canasta entra vale y 1 tiro libre; si no entra, 2 o 3 tiros libres según la zona del intento."
+ },
+ {
+  "num": "34-4",
+  "regla_id": "R-34",
+  "art": "Falta personal",
+  "resumen_propio": "Falta de control de equipo (la comete el atacante en control): nunca da tiros libres; saque para el rival."
+ },
+ {
+  "num": "35-1",
+  "regla_id": "R-35",
+  "art": "Falta doble",
+  "resumen_propio": "Dos rivales se cometen falta personal el uno al otro aproximadamente al mismo tiempo."
+ },
+ {
+  "num": "35-2",
+  "regla_id": "R-35",
+  "art": "Falta doble",
+  "resumen_propio": "Se registra una falta a cada uno, sin tiros libres; el juego se reanuda según quién tuviera el control, o por posesión alterna si no lo había."
+ },
+ {
+  "num": "36-1",
+  "regla_id": "R-36",
+  "art": "Falta técnica",
+  "resumen_propio": "Conducta antirreglamentaria sin contacto: irrespeto a los árbitros, demoras, lenguaje ofensivo, colgarse del aro sin necesidad, etc."
+ },
+ {
+  "num": "36-2",
+  "regla_id": "R-36",
+  "art": "Falta técnica",
+  "resumen_propio": "Penalización: 1 tiro libre para cualquier jugador del rival; el juego se reanuda desde donde estaba el balón, que conserva el equipo que lo tenía."
+ },
+ {
+  "num": "36-3",
+  "regla_id": "R-36",
+  "art": "Falta técnica",
+  "resumen_propio": "Aviso por fingir falta (fake): el primer caso del equipo es un aviso; el segundo del mismo equipo es falta técnica."
+ },
+ {
+  "num": "36-4",
+  "regla_id": "R-36",
+  "art": "Falta técnica",
+  "resumen_propio": "La técnica a un jugador cuenta como falta de jugador y de equipo; la del entrenador ('C') no cuenta como falta de equipo pero suma para su descalificación."
+ },
+ {
+  "num": "36-5",
+  "regla_id": "R-36",
+  "art": "Falta técnica",
+  "resumen_propio": "Técnica de banquillo ('B'): se carga al entrenador por conducta de personas del banquillo; no cuenta como falta de jugador."
+ },
+ {
+  "num": "37-1",
+  "regla_id": "R-37",
+  "art": "Antideportiva",
+  "resumen_propio": "Contacto que no es esfuerzo legítimo por el balón. Criterios: no jugar el balón, contacto excesivo, contacto innecesario para frenar el contraataque, o contacto sin opción real de jugar el balón."
+ },
+ {
+  "num": "37-2",
+  "regla_id": "R-37",
+  "art": "Antideportiva",
+  "resumen_propio": "En transición, el contacto de un defensor por detrás o lateral sobre un atacante lanzado a canasta sin defensores entre él y el aro es antideportiva."
+ },
+ {
+  "num": "37-3",
+  "regla_id": "R-37",
+  "art": "Antideportiva",
+  "resumen_propio": "Penalización: tiros libres (1, 2 o 3 según anotara y la zona) más posesión con saque desde la línea de saque en pista de ataque y 14 s."
+ },
+ {
+  "num": "37-4",
+  "regla_id": "R-37",
+  "art": "Antideportiva",
+  "resumen_propio": "La segunda falta antideportiva del mismo jugador en el partido conlleva su descalificación."
+ },
+ {
+  "num": "38-1",
+  "regla_id": "R-38",
+  "art": "Descalificante",
+  "resumen_propio": "Acción antideportiva flagrante de un jugador, sustituto, eliminado o miembro del banquillo (golpes, agresión, conducta extrema)."
+ },
+ {
+  "num": "38-2",
+  "regla_id": "R-38",
+  "art": "Descalificante",
+  "resumen_propio": "El infractor es descalificado y debe abandonar el recinto; se conceden 2 tiros libres más posesión (saque desde la línea de saque en pista de ataque)."
+ },
+ {
+  "num": "39-1",
+  "regla_id": "R-39",
+  "art": "Pelea",
+  "resumen_propio": "Agresión física entre dos o más rivales (puñetazos, patadas)."
+ },
+ {
+  "num": "39-2",
+  "regla_id": "R-39",
+  "art": "Pelea",
+  "resumen_propio": "Los miembros del banquillo que abandonan su zona durante una pelea son descalificados, participen o no en ella."
+ },
+ {
+  "num": "39-3",
+  "regla_id": "R-39",
+  "art": "Pelea",
+  "resumen_propio": "Sea cual sea el número de descalificados por dejar el banquillo, se carga una sola técnica 'B' al entrenador; las descalificantes enfrentadas se cancelan y el juego se reanuda donde estaba."
+ },
+ {
+  "num": "42-1",
+  "regla_id": "R-42",
+  "art": "Situaciones especiales",
+  "resumen_propio": "Ocurren cuando, en el mismo intervalo de balón muerto tras una infracción, se producen más faltas o infracciones."
+ },
+ {
+  "num": "42-2",
+  "regla_id": "R-42",
+  "art": "Situaciones especiales",
+  "resumen_propio": "Se registran todas las faltas y se aplican sus penalizaciones en el orden en que ocurrieron."
+ },
+ {
+  "num": "42-3",
+  "regla_id": "R-42",
+  "art": "Situaciones especiales",
+  "resumen_propio": "Las penalizaciones iguales contra ambos equipos se cancelan entre sí; no se cancela el control del balón existente."
+ },
+ {
+  "num": "42-4",
+  "regla_id": "R-42",
+  "art": "Situaciones especiales",
+  "resumen_propio": "Tras cancelar las penalizaciones iguales, el juego se reanuda como estaba: con el control que existía o por posesión alterna."
+ },
+ {
+  "num": "43-1",
+  "regla_id": "R-43",
+  "art": "Tiros libres",
+  "resumen_propio": "El tirador se coloca tras la línea, dentro del semicírculo, y tiene 5 s para lanzar tras recibir el balón; el balón debe tocar el aro."
+ },
+ {
+  "num": "43-2",
+  "regla_id": "R-43",
+  "art": "Tiros libres",
+  "resumen_propio": "Los jugadores de los espacios del pasillo no entran a la zona, ni los demás cruzan sus líneas, hasta que el balón sale de la mano del tirador."
+ },
+ {
+  "num": "43-3",
+  "regla_id": "R-43",
+  "art": "Tiros libres",
+  "resumen_propio": "Violación solo del tirador: el tiro no vale (saque para el rival si era el último). Violación solo de un compañero: vale si entra, se repite si no. Violación solo de la defensa: vale si entra, se repite si no."
+ },
+ {
+  "num": "43-4",
+  "regla_id": "R-43",
+  "art": "Tiros libres",
+  "resumen_propio": "Violación de ambos equipos a la vez en el último tiro fallado: situación de salto resuelta por posesión alterna."
+ },
+ {
+  "num": "44-1",
+  "regla_id": "R-44",
+  "art": "Errores rectificables",
+  "resumen_propio": "Categoría 1: conceder tiros libres indebidos, no conceder los merecidos, fallar al anotar o anular puntos, o sancionar al jugador equivocado."
+ },
+ {
+  "num": "44-2",
+  "regla_id": "R-44",
+  "art": "Errores rectificables",
+  "resumen_propio": "Plazo: solo se corrigen si se detectan antes de que el balón se vuelva vivo tras el primer balón muerto posterior a poner el reloj en marcha después del error."
+ },
+ {
+  "num": "44-3",
+  "regla_id": "R-44",
+  "art": "Errores rectificables",
+  "resumen_propio": "Al corregir, los puntos legítimos se mantienen y los indebidos se anulan; las faltas registradas quedan, salvo las que dependían del error."
+ },
+ {
+  "num": "44-4",
+  "regla_id": "R-44",
+  "art": "Errores rectificables",
+  "resumen_propio": "Tras la corrección, el juego se reanuda desde el punto donde se detuvo para corregir."
+ },
+ {
+  "num": "44-5",
+  "regla_id": "R-44",
+  "art": "Errores rectificables",
+  "resumen_propio": "Los errores de categoría 2 (del reloj de lanzamiento) se corrigen aparte, en cuanto se detectan, mientras el balón esté muerto."
  }
 ]
