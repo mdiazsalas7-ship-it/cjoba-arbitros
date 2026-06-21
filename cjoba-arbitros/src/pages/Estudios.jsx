@@ -39,6 +39,7 @@ function Coleccion({ items, nombre }) {
       {items.map((it, i) => (
         <div className="sub" key={i}>
           <span className="sn">{it.num || it.id}</span>
+          {it.art && <span style={{ marginLeft: 8, fontSize: 11, color: 'var(--faint)', fontFamily: "'Space Mono', monospace" }}>{it.art}</span>}
           <p>{it.resumen_propio || it.texto || it.descripcion}</p>
         </div>
       ))}

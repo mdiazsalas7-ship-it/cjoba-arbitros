@@ -8,6 +8,7 @@ function TopBar() {
   return (
     <header className="topbar">
       <div className="bar">
+        <img src="https://i.postimg.cc/hPLX3zVD/download.jpg" alt="CJOBA" className="logo" />
         <span className="brand">CJOBA<small>.</small></span>
         <span className="tagline">Reglamento FIBA 2024</span>
       </div>
