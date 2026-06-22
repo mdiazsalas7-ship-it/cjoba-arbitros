@@ -34,7 +34,7 @@ function TopBar() {
   return (
     <header className="topbar">
       <div className="bar">
-        <img src="https://i.postimg.cc/hPLX3zVD/download.jpg" alt="Árbitro Virtual" className="logo" />
+        <img src="/icon-192.png" alt="Árbitro Virtual" className="logo" />
         <span className="brand">Árbitro<small> Virtual</small></span>
         <AuthControl />
       </div>
