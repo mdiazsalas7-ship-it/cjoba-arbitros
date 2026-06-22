@@ -435,11 +435,11 @@
   "regla_id": "R-36",
   "pregunta": "Una falta tecnica se penaliza con...",
   "opcion_a": "2 tiros y posesion",
-  "opcion_b": "1 tiro libre y posesion",
+  "opcion_b": "1 tiro libre; el juego sigue en el punto de interrupción",
   "opcion_c": "Saque",
   "opcion_d": "Nada",
   "correcta": "B",
-  "explicacion": "Un tiro libre y posesion para el rival.",
+  "explicacion": "Un tiro libre para el rival. Tras la técnica el juego se reanuda desde el punto de interrupción; la posesión NO cambia (OBR 2024).",
   "dificultad": "Media",
   "id": "Q-0037"
  },
@@ -1555,7 +1555,7 @@
   "opcion_c": "Se repite el tiro.",
   "opcion_d": "Salto.",
   "correcta": "A",
-  "explicacion": "El tiro se pierde. Pero la posesión tras técnica es para el equipo lanzador. B saca.",
+  "explicacion": "El tiro de la técnica se pierde por la violación del lanzador. Tras una técnica el juego se reanuda en el punto de interrupción; la posesión no cambia por la técnica en sí.",
   "dificultad": "Media",
   "id": "Q-0130"
  },
@@ -2514,8 +2514,8 @@
   "opcion_b": "Advertencia por retraso de juego a B1.",
   "opcion_c": "Advertencia por retraso de juego al equipo B.",
   "opcion_d": "Violación.",
-  "correcta": "A",
-  "explicacion": "Interferir el saque cruzando la línea con cualquier parte del cuerpo es una violación de retraso de juego, lo que conlleva una Advertencia al Entrenador/Equipo B.",
+  "correcta": "C",
+  "explicacion": "La 1.ª vez que un defensor cruza la línea para interferir el saque es una ADVERTENCIA de retraso al equipo (vale para todo el partido). La repetición o, en los últimos 2:00, sí es técnica.",
   "dificultad": "Media",
   "id": "Q-0210"
  },
