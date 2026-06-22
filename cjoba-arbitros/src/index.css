@@ -231,3 +231,15 @@ input, textarea { font-family: inherit; }
 
 /* logo en la cabecera */
 .topbar .logo { width: 30px; height: 30px; border-radius: 8px; object-fit: cover; border: 1px solid var(--line-2); }
+
+/* ---------- Control de sesión ---------- */
+.auth-btn { margin-left: auto; background: var(--grad); color: #fff; border: none; border-radius: 999px; padding: 8px 16px; font-weight: 700; font-size: 13px; font-family: Sora, sans-serif; }
+.auth-wrap { margin-left: auto; position: relative; }
+.auth-ava { width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line-2); background: var(--surface-2); overflow: hidden; display: flex; align-items: center; justify-content: center; padding: 0; }
+.auth-ava img { width: 100%; height: 100%; object-fit: cover; }
+.auth-ava span { font-family: Sora, sans-serif; font-weight: 800; color: var(--accent); font-size: 15px; }
+.auth-menu { position: absolute; right: 0; top: 44px; background: var(--surface); border: 1px solid var(--line-2); border-radius: 14px; padding: 14px; min-width: 180px; box-shadow: 0 14px 40px rgba(0,0,0,.5); z-index: 40; }
+.auth-name { font-family: Sora, sans-serif; font-weight: 700; font-size: 14px; }
+.auth-role { display: inline-block; margin-top: 5px; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: var(--surface-2); color: var(--muted); border: 1px solid var(--line-2); }
+.auth-role.ins { background: var(--ok-dim); color: var(--ok); border-color: var(--ok); }
+.auth-logout { display: block; width: 100%; margin-top: 12px; background: var(--surface-2); border: 1px solid var(--line-2); color: var(--text); border-radius: 10px; padding: 9px; font-weight: 600; font-size: 13px; }

@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState } from 'react'
-import { collection, getDocs, addDoc, query, where, serverTimestamp } from 'firebase/firestore'
+import { useEffect, useState } from 'react'
+import { collection, getDocs, addDoc, updateDoc, doc, query, where, serverTimestamp } from 'firebase/firestore'
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage'
 import { db, storage } from '../firebase.js'
+import { useAuth } from '../auth.jsx'
 import seed from '../data/casos.json'
 
 const fromSeed = (c) => ({
@@ -10,12 +11,13 @@ const fromSeed = (c) => ({
   verificada: c.respuesta_verificada || '', verificado_por: c.verificado_por || '', origen: 'seed',
 })
 const ts = (x) => (x && x.creado && x.creado.seconds) ? x.creado.seconds : (x.localTs || 0)
+const esFirestore = (c) => c.origen === 'firestore' || (typeof c.id === 'string' && !c.id.startsWith('C-') && !c.id.startsWith('local-'))
 
 export default function Interactiva() {
+  const { user, nombre, login, esInstructor } = useAuth()
   const [cases, setCases] = useState(() => seed.map(fromSeed))
   const [status, setStatus] = useState('cargando')
   const [open, setOpen] = useState(null)
-  const [nombre, setNombre] = useState(() => { try { return localStorage.getItem('cjoba_nombre') || '' } catch { return '' } })
   const [form, setForm] = useState({ titulo: '', regla_id: '', descripcion: '' })
   const [file, setFile] = useState(null)
   const [sending, setSending] = useState(false)
@@ -42,11 +44,10 @@ export default function Interactiva() {
     if (file) {
       try {
         const r = ref(storage, `casos/${Date.now()}_${file.name.replace(/\s+/g, '_')}`)
-        await uploadBytes(r, file)
-        foto = await getDownloadURL(r)
+        await uploadBytes(r, file); foto = await getDownloadURL(r)
       } catch (_) {}
     }
-    const nuevo = { titulo: form.titulo.trim(), regla_id: form.regla_id.trim() || 'R-?', descripcion: form.descripcion.trim(), foto, estado: 'Abierto', verificada: '', creado: serverTimestamp() }
+    const nuevo = { titulo: form.titulo.trim(), regla_id: form.regla_id.trim() || 'R-?', descripcion: form.descripcion.trim(), foto, estado: 'Abierto', verificada: '', autor: nombre, autorUid: user.uid, creado: serverTimestamp() }
     try {
       const r = await addDoc(collection(db, 'casos'), nuevo)
       setCases(c => [{ id: r.id, ...nuevo, origen: 'firestore' }, ...c])
@@ -56,9 +57,12 @@ export default function Interactiva() {
     setForm({ titulo: '', regla_id: '', descripcion: '' }); setFile(null); setSending(false)
   }
 
-  function saveNombre(v) { setNombre(v); try { localStorage.setItem('cjoba_nombre', v) } catch {} }
+  function onVerify(updated) {
+    setCases(cs => cs.map(c => c.id === updated.id ? updated : c))
+    setOpen(updated)
+  }
 
-  if (open) return <Detalle caso={open} onBack={() => setOpen(null)} nombre={nombre} setNombre={saveNombre} />
+  if (open) return <Detalle caso={open} onBack={() => setOpen(null)} onVerify={onVerify} />
 
   return (
     <div className="wrap">
@@ -68,21 +72,26 @@ export default function Interactiva() {
         <p>¿Una jugada que te dejó dudando? Súbela con foto y deja que otros árbitros la analicen.</p>
       </div>
 
-      <div className="case" style={{ marginBottom: 18 }}>
-        <strong style={{ fontFamily: 'Sora', fontSize: 15 }}>Publicar una jugada</strong>
-        <div className="field"><label>Título</label>
-          <input value={form.titulo} onChange={e => setForm({ ...form, titulo: e.target.value })} placeholder="¿Pasos o no en la recepción?" /></div>
-        <div className="field"><label>Regla relacionada (opcional)</label>
-          <input value={form.regla_id} onChange={e => setForm({ ...form, regla_id: e.target.value })} placeholder="R-25" /></div>
-        <div className="field"><label>Descripción</label>
-          <textarea rows={3} value={form.descripcion} onChange={e => setForm({ ...form, descripcion: e.target.value })} placeholder="Describe qué pasó y tu duda…" /></div>
-        <label className="filebtn">
-          📷 {file ? file.name : 'Adjuntar foto (opcional)'}
-          <input type="file" accept="image/*" style={{ display: 'none' }} onChange={e => setFile(e.target.files[0] || null)} />
-        </label>
-        <button className="btn ghost" disabled={sending} onClick={publish} style={{ marginTop: 12 }}>{sending ? 'Publicando…' : 'Publicar jugada'}</button>
-        {status === 'offline' && <p className="note">La base de datos aún no está activa. Tu jugada se muestra solo en esta sesión. Activa Firestore para guardarla.</p>}
-      </div>
+      {user ? (
+        <div className="case" style={{ marginBottom: 18 }}>
+          <strong style={{ fontFamily: 'Sora', fontSize: 15 }}>Publicar una jugada</strong>
+          <div className="field"><label>Título</label>
+            <input value={form.titulo} onChange={e => setForm({ ...form, titulo: e.target.value })} placeholder="¿Pasos o no en la recepción?" /></div>
+          <div className="field"><label>Regla relacionada (opcional)</label>
+            <input value={form.regla_id} onChange={e => setForm({ ...form, regla_id: e.target.value })} placeholder="R-25" /></div>
+          <div className="field"><label>Descripción</label>
+            <textarea rows={3} value={form.descripcion} onChange={e => setForm({ ...form, descripcion: e.target.value })} placeholder="Describe qué pasó y tu duda…" /></div>
+          <label className="filebtn">📷 {file ? file.name : 'Adjuntar foto (opcional)'}
+            <input type="file" accept="image/*" style={{ display: 'none' }} onChange={e => setFile(e.target.files[0] || null)} /></label>
+          <button className="btn ghost" disabled={sending} onClick={publish} style={{ marginTop: 12 }}>{sending ? 'Publicando…' : `Publicar como ${nombre}`}</button>
+          {status === 'offline' && <p className="note">La base de datos aún no está activa. Tu jugada se muestra solo en esta sesión.</p>}
+        </div>
+      ) : (
+        <div className="case" style={{ marginBottom: 18, textAlign: 'center' }}>
+          <p style={{ color: 'var(--muted)', margin: '4px 0 12px' }}>Inicia sesión para publicar tu jugada y opinar sobre las de otros árbitros.</p>
+          <button className="btn" onClick={login}>Entrar con Google</button>
+        </div>
+      )}
 
       <p className="cat-label">Jugadas {status === 'online' ? '· comunidad en vivo' : ''}</p>
       <div className="list">
@@ -95,21 +104,24 @@ export default function Interactiva() {
             {c.regla_id && c.regla_id !== 'R-?' && <span className="ref">{c.regla_id}</span>}
             {c.foto && <img className="foto" src={c.foto} alt="" />}
             <p className="cd">{c.descripcion}</p>
-            <p className="opn-count">Toca para opinar →</p>
+            {c.autor && <p className="opn-count">Por {c.autor} · toca para opinar →</p>}
+            {!c.autor && <p className="opn-count">Toca para opinar →</p>}
           </button>
         ))}
       </div>
-      <p className="disclaimer">La marca "verificada" debe reservarse a árbitros instructores. El reglamento oficial es el árbitro final.</p>
+      <p className="disclaimer">Solo los instructores pueden marcar una respuesta como verificada. El reglamento oficial es el árbitro final.</p>
     </div>
   )
 }
 
-function Detalle({ caso, onBack, nombre, setNombre }) {
+function Detalle({ caso, onBack, onVerify }) {
+  const { user, nombre, login, esInstructor } = useAuth()
   const [op, setOp] = useState([])
   const [status, setStatus] = useState('cargando')
   const [txt, setTxt] = useState('')
   const [sending, setSending] = useState(false)
-  const inputName = useRef(null)
+  const [vtext, setVtext] = useState('')
+  const [vsending, setVsending] = useState(false)
 
   useEffect(() => {
     let alive = true
@@ -127,9 +139,8 @@ function Detalle({ caso, onBack, nombre, setNombre }) {
 
   async function enviar() {
     if (!txt.trim()) return
-    if (!nombre.trim()) { inputName.current?.focus(); return }
     setSending(true)
-    const nueva = { casoId: caso.id, autor: nombre.trim(), texto: txt.trim(), creado: serverTimestamp() }
+    const nueva = { casoId: caso.id, autor: nombre, autorUid: user.uid, texto: txt.trim(), creado: serverTimestamp() }
     try {
       const r = await addDoc(collection(db, 'opiniones'), nueva)
       setOp(o => [...o, { id: r.id, ...nueva }])
@@ -137,6 +148,19 @@ function Detalle({ caso, onBack, nombre, setNombre }) {
       setOp(o => [...o, { id: 'local-' + Date.now(), ...nueva, localTs: Date.now() }])
     }
     setTxt(''); setSending(false)
+  }
+
+  async function verificar() {
+    if (!vtext.trim()) return
+    setVsending(true)
+    const cambios = { estado: 'Resuelto', verificada: vtext.trim(), verificado_por: nombre }
+    try {
+      await updateDoc(doc(db, 'casos', caso.id), cambios)
+      onVerify({ ...caso, ...cambios })
+    } catch (_) {
+      alert('No se pudo guardar la verificación. Revisa los permisos de Firestore para instructores.')
+    }
+    setVsending(false)
   }
 
   return (
@@ -150,8 +174,18 @@ function Detalle({ caso, onBack, nombre, setNombre }) {
         {caso.regla_id && caso.regla_id !== 'R-?' && <span className="ref">{caso.regla_id}</span>}
         {caso.foto && <img className="foto" src={caso.foto} alt="" />}
         <p className="cd">{caso.descripcion}</p>
+        {caso.autor && <p className="opn-count">Publicado por {caso.autor}</p>}
         {caso.verificada && <p className="verified">✓ <b>Verificada</b> {caso.verificado_por ? '· ' + caso.verificado_por : ''}: {caso.verificada}</p>}
       </div>
+
+      {esInstructor && esFirestore(caso) && !caso.verificada && (
+        <div className="case" style={{ marginBottom: 16, borderColor: 'var(--ok)' }}>
+          <strong style={{ fontFamily: 'Sora', fontSize: 14, color: 'var(--ok)' }}>✓ Verificar (instructor)</strong>
+          <div className="field"><label>Resolución oficial</label>
+            <textarea rows={2} value={vtext} onChange={e => setVtext(e.target.value)} placeholder="La decisión correcta, citando la regla…" /></div>
+          <button className="btn" disabled={vsending} onClick={verificar} style={{ background: 'var(--ok)' }}>{vsending ? 'Guardando…' : 'Marcar como verificada'}</button>
+        </div>
+      )}
 
       <p className="cat-label">Opiniones ({op.length})</p>
       <div className="list" style={{ paddingBottom: 8 }}>
@@ -164,14 +198,18 @@ function Detalle({ caso, onBack, nombre, setNombre }) {
         ))}
       </div>
 
-      <div className="case">
-        <div className="field"><label>Tu nombre</label>
-          <input ref={inputName} value={nombre} onChange={e => setNombre(e.target.value)} placeholder="Árbitro / iniciales" /></div>
-        <div className="field"><label>Tu opinión</label>
-          <textarea rows={3} value={txt} onChange={e => setTxt(e.target.value)} placeholder="¿Cómo resolverías esta jugada? Cita la regla si puedes…" /></div>
-        <button className="btn" disabled={sending} onClick={enviar}>{sending ? 'Enviando…' : 'Publicar opinión'}</button>
-        {status === 'offline' && <p className="note">Base de datos no activa: tu opinión se ve solo en esta sesión. Activa Firestore para guardarla.</p>}
-      </div>
+      {user ? (
+        <div className="case">
+          <div className="field"><label>Tu opinión, {nombre}</label>
+            <textarea rows={3} value={txt} onChange={e => setTxt(e.target.value)} placeholder="¿Cómo resolverías esta jugada? Cita la regla si puedes…" /></div>
+          <button className="btn" disabled={sending} onClick={enviar}>{sending ? 'Enviando…' : 'Publicar opinión'}</button>
+        </div>
+      ) : (
+        <div className="case" style={{ textAlign: 'center' }}>
+          <p style={{ color: 'var(--muted)', margin: '4px 0 12px' }}>Inicia sesión para opinar sobre esta jugada.</p>
+          <button className="btn" onClick={login}>Entrar con Google</button>
+        </div>
+      )}
       <p className="disclaimer">Debate con respeto. El reglamento oficial es el árbitro final.</p>
     </div>
   )

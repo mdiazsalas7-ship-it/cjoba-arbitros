@@ -115,3 +115,47 @@ src/
 ```
 
 Para actualizar el contenido del reglamento, edita los archivos de `src/data/` y vuelve a hacer push.
+
+## 5. Activar el inicio de sesión (Google)
+
+1. En la consola de Firebase → **Build → Authentication → Get started**.
+2. En **Sign-in method**, habilita **Google** y guarda.
+3. En **Authentication → Settings → Authorized domains**, añade tu dominio de Vercel
+   (por ejemplo `arbitro-virtual.vercel.app`) y `localhost` para pruebas.
+
+### Roles e instructores
+Al entrar por primera vez, cada persona se crea en Firestore en la colección **`usuarios`**
+con `rol: "arbitro"`. Para convertir a alguien en **instructor** (puede marcar respuestas como
+verificadas): en Firestore, abre `usuarios/{su-uid}` y cambia el campo `rol` a `"instructor"`.
+
+### Reglas de seguridad (Firestore) con sesión
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function esInstructor() {
+      return request.auth != null &&
+        get(/databases/$(database)/documents/usuarios/$(request.auth.uid)).data.rol == 'instructor';
+    }
+    match /usuarios/{uid} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == uid;
+    }
+    match /casos/{doc} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow update: if esInstructor();   // solo instructores verifican
+      allow delete: if false;
+    }
+    match /opiniones/{doc} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow update, delete: if false;
+    }
+    match /ranking/{uid} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}
+```
