@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
 import { useAuth } from './auth.jsx'
+import InstallPrompt from './InstallPrompt.jsx'
 import Estudios from './pages/Estudios.jsx'
 import Senales from './pages/Senales.jsx'
 import Juegos from './pages/Juegos.jsx'
@@ -67,6 +68,7 @@ export default function App() {
           <Route path="*" element={<Navigate to="/estudios" replace />} />
         </Routes>
       </main>
+      <InstallPrompt />
       <BottomNav />
     </div>
   )
