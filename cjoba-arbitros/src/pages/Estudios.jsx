@@ -3,6 +3,7 @@ import reglas from '../data/reglas.json'
 import subarticulos from '../data/subarticulos.json'
 import obri from '../data/obri.json'
 import manuales from '../data/manuales.json'
+import manuales2 from '../data/manuales2.json'
 
 const norm = (s) => (s || '').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 const CATS = [...new Set(reglas.map(r => r.categoria))]
@@ -23,7 +24,20 @@ export default function Estudios() {
       </div>
       {seg === 'reglamento' && <Reglamento />}
       {seg === 'obri' && <Coleccion items={obri} nombre="interpretaciones del OBRI" />}
-      {seg === 'manuales' && <Coleccion items={manuales} nombre="manuales del árbitro" />}
+      {seg === 'manuales' && <Manuales />}
+    </div>
+  )
+}
+
+function Manuales() {
+  const [m, setM] = useState('3po')
+  return (
+    <div>
+      <div className="seg" style={{ marginTop: 0 }}>
+        <button className={m === '3po' ? 'on' : ''} onClick={() => setM('3po')}>3 árbitros (3PO)</button>
+        <button className={m === '2po' ? 'on' : ''} onClick={() => setM('2po')}>2 árbitros (2PO)</button>
+      </div>
+      <Coleccion items={m === '3po' ? manuales : manuales2} nombre="secciones del manual" />
     </div>
   )
 }
