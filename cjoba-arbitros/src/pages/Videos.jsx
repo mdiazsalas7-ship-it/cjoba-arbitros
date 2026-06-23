@@ -118,9 +118,9 @@ export default function Videos() {
             <h3 style={{ marginTop: 0 }}>{play.titulo}</h3>
             <div className="vid-frame">
               <iframe
-                src={`https://www.youtube-nocookie.com/embed/${play.id}?rel=0`}
+                src={`https://www.youtube.com/embed/${play.id}?rel=0&playsinline=1`}
                 title={play.titulo} frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               />
             </div>
