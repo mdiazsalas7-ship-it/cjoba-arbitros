@@ -159,3 +159,17 @@ service cloud.firestore {
   }
 }
 ```
+
+## 6. Videoteca (colección `videos`)
+La pestaña Videos incrusta clips de YouTube. Trae unos de muestra y los **instructores** pueden
+agregar más pegando el enlace. Para guardarlos, añade esta regla en Firestore:
+
+```
+    match /videos/{doc} {
+      allow read: if true;
+      allow create: if esInstructor();   // solo instructores agregan
+      allow update, delete: if false;
+    }
+```
+La videoteca completa de FIBA está en su app **iRef Academy** (no se puede incrustar);
+por eso la pestaña incluye un acceso directo a la biblioteca oficial de FIBA.
