@@ -1,0 +1,122 @@
+[
+ {
+  "id": "C-0001",
+  "regla_id": "R-25",
+  "titulo": "Pasos en recepcion de contraataque",
+  "descripcion": "A1 recibe en carrera cerca del aro, hace un apoyo, recoge y anota en bandeja. Hubo pasos?",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "No: el apoyo de recepcion mas dos apoyos para la bandeja es legal.",
+  "verificado_por": "Instructor regional"
+ },
+ {
+  "id": "C-0002",
+  "regla_id": "R-29",
+  "titulo": "Reinicio tras rebote ofensivo",
+  "descripcion": "Tiro que toca aro, rebota ofensivo del mismo equipo. A cuantos segundos va el reloj?",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "A 14 segundos.",
+  "verificado_por": "Instructor regional"
+ },
+ {
+  "id": "C-0003",
+  "regla_id": "R-33",
+  "titulo": "Carga o bloqueo en el semicirculo de no carga",
+  "descripcion": "El defensor recibe el contacto con un pie dentro del semicirculo de no carga bajo el aro.",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "No se sanciona carga al atacante; el defensor estaba en la zona de no carga.",
+  "verificado_por": "Instructor nacional"
+ },
+ {
+  "id": "C-0004",
+  "regla_id": "R-37",
+  "titulo": "Contacto en transicion: antideportiva?",
+  "descripcion": "B1 frena a A1 por detras en un 1 contra 0 hacia canasta.",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "Falta antideportiva por criterio de transicion.",
+  "verificado_por": "Instructor nacional"
+ },
+ {
+  "id": "C-0005",
+  "regla_id": "R-24",
+  "titulo": "Doble regate o perdida accidental?",
+  "descripcion": "A1 deja de botar, el balon se le escapa y lo vuelve a tomar y botar.",
+  "enlace_video": "",
+  "estado": "Abierto",
+  "respuesta_verificada": "",
+  "verificado_por": ""
+ },
+ {
+  "id": "C-0006",
+  "regla_id": "R-31",
+  "titulo": "Dedos sobre el aro: interferencia?",
+  "descripcion": "Un defensor toca el aro mientras el balon descansa sobre el.",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "Interferencia: se concede la canasta.",
+  "verificado_por": "Instructor regional"
+ },
+ {
+  "id": "C-0007",
+  "regla_id": "R-26",
+  "titulo": "Tres segundos al iniciarse un tiro",
+  "descripcion": "A5 lleva 3 s en la zona pero un companero ya inicio la accion de tiro.",
+  "enlace_video": "",
+  "estado": "Abierto",
+  "respuesta_verificada": "",
+  "verificado_por": ""
+ },
+ {
+  "id": "C-0008",
+  "regla_id": "R-17",
+  "titulo": "Saque: el sacador pisa la linea",
+  "descripcion": "El pie del sacador toca el campo al soltar el balon.",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "Violacion de saque; balon para el rival.",
+  "verificado_por": "Arbitro senior"
+ },
+ {
+  "id": "C-0009",
+  "regla_id": "R-36",
+  "titulo": "Aviso por fingir falta repetido",
+  "descripcion": "Segundo gesto de fingir falta del mismo equipo en el partido.",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "Falta tecnica (segundo aviso del equipo).",
+  "verificado_por": "Instructor nacional"
+ },
+ {
+  "id": "C-0010",
+  "regla_id": "R-12",
+  "titulo": "Hacia quien va la flecha en un salto",
+  "descripcion": "Balon retenido entre A1 y B1; la flecha senala a A.",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "Saque para A; luego la flecha cambia hacia B.",
+  "verificado_por": "Arbitro senior"
+ },
+ {
+  "id": "C-0011",
+  "regla_id": "R-40",
+  "titulo": "5.ª falta no advertida a tiempo",
+  "descripcion": "La mesa no avisa la 5.ª falta y el jugador sigue jugando una posesion.",
+  "enlace_video": "",
+  "estado": "Abierto",
+  "respuesta_verificada": "",
+  "verificado_por": ""
+ },
+ {
+  "id": "C-0012",
+  "regla_id": "R-23",
+  "titulo": "Balon tocado por dos al salir",
+  "descripcion": "A1 y B1 tocan el balon a la vez cuando sale de banda.",
+  "enlace_video": "",
+  "estado": "Resuelto",
+  "respuesta_verificada": "Situacion de salto: se aplica posesion alterna.",
+  "verificado_por": "Arbitro senior"
+ }
+]
