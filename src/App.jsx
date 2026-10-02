@@ -1,15 +1,14 @@
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
+import InstallPrompt from './InstallPrompt.jsx'
 import Estudios from './pages/Estudios.jsx'
-import Senales from './pages/Senales.jsx'
-import Juegos from './pages/Juegos.jsx'
-import Interactiva from './pages/Interactiva.jsx'
+import Asistente from './pages/Asistente.jsx'
 
 function TopBar() {
   return (
     <header className="topbar">
       <div className="bar">
-        <span className="brand">CJOBA<small>.</small></span>
-        <span className="tagline">Reglamento FIBA 2024</span>
+        <img src="/icon-192.png" alt="Árbitro Virtual" className="logo" />
+        <span className="brand">Árbitro<small> Virtual</small></span>
       </div>
       <div className="stripes" aria-hidden="true" />
     </header>
@@ -18,11 +17,9 @@ function TopBar() {
 
 function BottomNav() {
   return (
-    <nav className="nav cols-4" aria-label="Secciones">
-      <NavLink to="/estudios"><span className="ico">📖</span>Estudios</NavLink>
-      <NavLink to="/senales"><span className="ico">✋</span>Señales</NavLink>
-      <NavLink to="/juegos"><span className="ico">🎯</span>Juegos</NavLink>
-      <NavLink to="/comunidad"><span className="ico">💬</span>Comunidad</NavLink>
+    <nav className="nav" aria-label="Secciones" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
+      <NavLink to="/asistente"><span className="ico">🎙️</span>Asistente</NavLink>
+      <NavLink to="/reglamento"><span className="ico">📖</span>Reglamento</NavLink>
     </nav>
   )
 }
@@ -33,14 +30,13 @@ export default function App() {
       <TopBar />
       <main>
         <Routes>
-          <Route path="/" element={<Navigate to="/estudios" replace />} />
-          <Route path="/estudios" element={<Estudios />} />
-          <Route path="/senales" element={<Senales />} />
-          <Route path="/juegos" element={<Juegos />} />
-          <Route path="/comunidad" element={<Interactiva />} />
-          <Route path="*" element={<Navigate to="/estudios" replace />} />
+          <Route path="/" element={<Navigate to="/asistente" replace />} />
+          <Route path="/asistente" element={<Asistente />} />
+          <Route path="/reglamento" element={<Estudios />} />
+          <Route path="*" element={<Navigate to="/asistente" replace />} />
         </Routes>
       </main>
+      <InstallPrompt />
       <BottomNav />
     </div>
   )
