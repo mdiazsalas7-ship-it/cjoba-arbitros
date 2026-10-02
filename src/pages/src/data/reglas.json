@@ -1,0 +1,402 @@
+[
+ {
+  "id": "R-1",
+  "articulo": "Art. 1",
+  "titulo": "El juego",
+  "categoria": "El juego",
+  "n_secciones": 4,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-2",
+  "articulo": "Art. 2",
+  "titulo": "La cancha",
+  "categoria": "Cancha y equipamiento",
+  "n_secciones": 6,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-3",
+  "articulo": "Art. 3",
+  "titulo": "Equipamiento",
+  "categoria": "Cancha y equipamiento",
+  "n_secciones": 0,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-4",
+  "articulo": "Art. 4",
+  "titulo": "Los equipos",
+  "categoria": "Equipos",
+  "n_secciones": 4,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-5",
+  "articulo": "Art. 5",
+  "titulo": "Jugadores: lesión y asistencia",
+  "categoria": "Equipos",
+  "n_secciones": 8,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-6",
+  "articulo": "Art. 6",
+  "titulo": "El capitán",
+  "categoria": "Equipos",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-7",
+  "articulo": "Art. 7",
+  "titulo": "Entrenador y primer ayudante",
+  "categoria": "Equipos",
+  "n_secciones": 10,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-8",
+  "articulo": "Art. 8",
+  "titulo": "Tiempo de juego, empate y prórroga",
+  "categoria": "Reglas de juego",
+  "n_secciones": 9,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-9",
+  "articulo": "Art. 9",
+  "titulo": "Inicio y final de cuarto o partido",
+  "categoria": "Reglas de juego",
+  "n_secciones": 7,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-10",
+  "articulo": "Art. 10",
+  "titulo": "Estado del balón",
+  "categoria": "Reglas de juego",
+  "n_secciones": 4,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-11",
+  "articulo": "Art. 11",
+  "titulo": "Posición de jugador y árbitro",
+  "categoria": "Reglas de juego",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-12",
+  "articulo": "Art. 12",
+  "titulo": "Salto entre dos y posesión alterna",
+  "categoria": "Reglas de juego",
+  "n_secciones": 6,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-13",
+  "articulo": "Art. 13",
+  "titulo": "Cómo se juega el balón",
+  "categoria": "Reglas de juego",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-14",
+  "articulo": "Art. 14",
+  "titulo": "Control del balón",
+  "categoria": "Reglas de juego",
+  "n_secciones": 1,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-15",
+  "articulo": "Art. 15",
+  "titulo": "Jugador en acción de tiro",
+  "categoria": "Reglas de juego",
+  "n_secciones": 1,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-16",
+  "articulo": "Art. 16",
+  "titulo": "Canasta: cuándo y su valor",
+  "categoria": "Reglas de juego",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-17",
+  "articulo": "Art. 17",
+  "titulo": "Saque",
+  "categoria": "Reglas de juego",
+  "n_secciones": 4,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-18",
+  "articulo": "Art. 18",
+  "titulo": "Tiempo muerto",
+  "categoria": "Reglas de juego",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-19",
+  "articulo": "Art. 19",
+  "titulo": "Sustitución",
+  "categoria": "Reglas de juego",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-20",
+  "articulo": "Art. 20",
+  "titulo": "Partido perdido por incomparecencia",
+  "categoria": "Reglas de juego",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-21",
+  "articulo": "Art. 21",
+  "titulo": "Partido perdido por inferioridad",
+  "categoria": "Reglas de juego",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-22",
+  "articulo": "Art. 22",
+  "titulo": "Violaciones",
+  "categoria": "Violaciones",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-23",
+  "articulo": "Art. 23",
+  "titulo": "Jugador y balón fuera de banda",
+  "categoria": "Violaciones",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-24",
+  "articulo": "Art. 24",
+  "titulo": "Regate",
+  "categoria": "Violaciones",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-25",
+  "articulo": "Art. 25",
+  "titulo": "Pasos (travelling)",
+  "categoria": "Violaciones",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-26",
+  "articulo": "Art. 26",
+  "titulo": "Tres segundos",
+  "categoria": "Violaciones",
+  "n_secciones": 1,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-27",
+  "articulo": "Art. 27",
+  "titulo": "Jugador estrechamente marcado",
+  "categoria": "Violaciones",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-28",
+  "articulo": "Art. 28",
+  "titulo": "Ocho segundos",
+  "categoria": "Violaciones",
+  "n_secciones": 1,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-29",
+  "articulo": "Art. 29",
+  "titulo": "Reloj de lanzamiento (24 s)",
+  "categoria": "Violaciones",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-30",
+  "articulo": "Art. 30",
+  "titulo": "Balón devuelto a pista de defensa",
+  "categoria": "Violaciones",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-31",
+  "articulo": "Art. 31",
+  "titulo": "Interposición e interferencia",
+  "categoria": "Violaciones",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-32",
+  "articulo": "Art. 32",
+  "titulo": "Faltas",
+  "categoria": "Faltas",
+  "n_secciones": 1,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-33",
+  "articulo": "Art. 33",
+  "titulo": "Contacto: principios generales",
+  "categoria": "Faltas",
+  "n_secciones": 16,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-34",
+  "articulo": "Art. 34",
+  "titulo": "Falta personal",
+  "categoria": "Faltas",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-35",
+  "articulo": "Art. 35",
+  "titulo": "Falta doble",
+  "categoria": "Faltas",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-36",
+  "articulo": "Art. 36",
+  "titulo": "Falta técnica",
+  "categoria": "Faltas",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-37",
+  "articulo": "Art. 37",
+  "titulo": "Falta antideportiva",
+  "categoria": "Faltas",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-38",
+  "articulo": "Art. 38",
+  "titulo": "Falta descalificante",
+  "categoria": "Faltas",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-39",
+  "articulo": "Art. 39",
+  "titulo": "Pelea",
+  "categoria": "Faltas",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-40",
+  "articulo": "Art. 40",
+  "titulo": "Límite de faltas y descalificaciones",
+  "categoria": "Provisiones generales",
+  "n_secciones": 6,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-41",
+  "articulo": "Art. 41",
+  "titulo": "Faltas de equipo: penalización",
+  "categoria": "Provisiones generales",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-42",
+  "articulo": "Art. 42",
+  "titulo": "Situaciones especiales",
+  "categoria": "Provisiones generales",
+  "n_secciones": 2,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-43",
+  "articulo": "Art. 43",
+  "titulo": "Tiros libres",
+  "categoria": "Provisiones generales",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-44",
+  "articulo": "Art. 44",
+  "titulo": "Errores rectificables",
+  "categoria": "Provisiones generales",
+  "n_secciones": 6,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-45",
+  "articulo": "Art. 45",
+  "titulo": "Oficiales, mesa y comisario",
+  "categoria": "Oficiales y mesa",
+  "n_secciones": 7,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-46",
+  "articulo": "Art. 46",
+  "titulo": "Árbitro principal: deberes",
+  "categoria": "Oficiales y mesa",
+  "n_secciones": 14,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-47",
+  "articulo": "Art. 47",
+  "titulo": "Árbitros: deberes y poderes",
+  "categoria": "Oficiales y mesa",
+  "n_secciones": 8,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-48",
+  "articulo": "Art. 48",
+  "titulo": "Anotador y ayudante: deberes",
+  "categoria": "Oficiales y mesa",
+  "n_secciones": 3,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-49",
+  "articulo": "Art. 49",
+  "titulo": "Cronometrador: deberes",
+  "categoria": "Oficiales y mesa",
+  "n_secciones": 4,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ },
+ {
+  "id": "R-50",
+  "articulo": "Art. 50",
+  "titulo": "Operador del reloj de lanzamiento",
+  "categoria": "Oficiales y mesa",
+  "n_secciones": 5,
+  "enlace_oficial": "https://refereeing.fiba.basketball/en/rules"
+ }
+]
